@@ -2,7 +2,7 @@
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
     <asset>
         <contributor>
-            <author>VCGLab</author>
+            <author>Aldebaran Robotics</author>
             <authoring_tool>VCGLib | MeshLab</authoring_tool>
         </contributor>
         <up_axis>Y_UP</up_axis>
