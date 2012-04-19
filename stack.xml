@@ -1,10 +1,10 @@
 <stack>
-  <description brief="Aldebaran Robotics Romeo robot description">
-    Aldebaran Robotics Romeo robot description
+  <description brief="Aldebaran Robotics Romeo robot">
+    Aldebaran Robotics Romeo robot stack.
   </description>
   <author>Maintained by François Keith and
     Thomas Moulard/thomas.moulard@gmail.com</author>
-  <license>BSD</license>
+  <license>BSD (model copyright hold by Aldebaran Robotics)</license>
   <review status="experimental" notes=""/>
   <url>http://ros.org/wiki/romeo</url>
   <depend stack="ros" />
