@@ -1,0 +1,12 @@
+<stack>
+  <description brief="Aldebaran Robotics Romeo robot description">
+    Aldebaran Robotics Romeo robot description
+  </description>
+  <author>Maintained by François Keith and
+    Thomas Moulard/thomas.moulard@gmail.com</author>
+  <license>BSD</license>
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/romeo</url>
+  <depend stack="ros" />
+
+</stack>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+   Robot Contact Point Format defines authorized contact points on a
+   robot.
+
+   FIXME: fill missing data.
+  -->
+<?xml version="1.0"?>
+<robot name="romeo">
+  <contact name="l_sole_contact" link="l_sole">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.1935 0.121 0.067" />
+    </geometry>
+    <limit normal_force="0" />
+  </contact>
+
+  <contact name="r_sole_contact" link="r_sole">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.1935 0.121 0.067" />
+    </geometry>
+    <limit normal_force="0" />
+  </contact>
+</robot>
