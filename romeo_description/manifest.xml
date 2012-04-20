@@ -9,4 +9,8 @@
   <license>BSD (model copyright hold by Aldebaran Robotics)</license>
   <review status="experimental" notes=""/>
   <url>http://ros.org/wiki/romeo_description</url>
+
+  <export>
+    <rosdoc config="rosdoc.yaml" />
+  </export>
 </package>
