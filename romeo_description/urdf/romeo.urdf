@@ -816,4 +816,64 @@
     <child link="r_sole"/>
     <origin xyz="0 0 -0.067" rpy="0 0 0"/>
   </joint>
+
+  <!-- Humanoid standard frame: gaze -->
+  <joint name="gaze_joint" type="fixed">
+    <parent link="HeadRoll_link"/>
+    <child link="gaze"/>
+    <origin xyz="0.1111 0 0.0515" rpy="0 0 0" />
+  </joint>
+  <link name="gaze"/>
+
+  <!-- Sensors: cameras -->
+  <joint name="LEyeYaw" type="revolute">
+    <origin xyz="0 0.0325 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <parent link="gaze"/>
+    <child link="LEyePitch_link"/>
+    <limit effort="0" lower="-0.523598766666667" upper="0.523598766666667" velocity="0" />
+  </joint>
+  <link name="LEyePitch_link"/>
+
+  <joint name="LEyePitch" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <parent link="LEyePitch_link"/>
+    <child link="CameraLeftEye"/>
+    <limit effort="0" lower="-0.349065844444444" upper="0.349065844444444" velocity="0" />
+  </joint>
+  <link name="CameraLeftEye"/>
+
+  <joint name="REyeYaw" type="revolute">
+    <origin xyz="0 -0.0325 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <parent link="gaze"/>
+    <child link="REyePitch_link"/>
+    <limit effort="0" lower="-0.523598766666667" upper="0.523598766666667" velocity="0" />
+  </joint>
+  <link name="REyePitch_link"/>
+
+  <joint name="REyePitch" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <parent link="REyePitch_link"/>
+    <child link="CameraRightEye"/>
+    <limit effort="0" lower="-0.349065844444444" upper="0.349065844444444" velocity="0" />
+  </joint>
+  <link name="CameraRightEye"/>
+
+  <joint name="CameraLeft_joint" type="fixed">
+    <origin xyz="-0.0021 0.055 0.0333" rpy="0 0 0" />
+    <parent link="gaze"/>
+    <child link="CameraLeft"/>
+  </joint>
+  <link name="CameraLeft"/>
+
+  <joint name="CameraRight_joint" type="fixed">
+    <origin xyz="-0.0021 -0.055 0.0333" rpy="0 0 0" />
+    <parent link="gaze"/>
+    <child link="CameraRight"/>
+  </joint>
+  <link name="CameraRight"/>
+
 </robot>

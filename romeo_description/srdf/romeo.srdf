@@ -97,5 +97,10 @@
     <joint name="RAnklePitch"    value="-0.3490658" />
     <joint name="RAnkleRoll"     value="0" />
     <joint name="RToePitch"      value="0" />
+
+    <joint name="LEyeYaw"        value="0" />
+    <joint name="LEyePitch"      value="0" />
+    <joint name="REyeYaw"        value="0" />
+    <joint name="REyePitch"      value="0" />
   </group_state>
 </robot>
