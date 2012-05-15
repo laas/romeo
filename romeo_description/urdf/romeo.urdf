@@ -196,13 +196,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LHand.dae" />
+	<mesh filename="package://romeo_description/meshes/LWristPitch.dae" />
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LHand.dae" />
+	<mesh filename="package://romeo_description/meshes/LWristPitch.dae" />
       </geometry>
     </collision>
   </link>
@@ -312,13 +312,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RHand.dae" />
+	<mesh filename="package://romeo_description/meshes/RWristPitch.dae" />
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RHand.dae" />
+	<mesh filename="package://romeo_description/meshes/RWristPitch.dae" />
       </geometry>
     </collision>
   </link>
@@ -529,6 +529,486 @@
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
 	<mesh filename="package://romeo_description/meshes/RToePitch.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger11_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger12_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger13_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger21_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger22_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger23_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger31_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger32_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger33_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LThumb1_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/LThumb.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/LThumb.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LThumb2_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LThumb3_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger11_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger12_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger13_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger21_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger22_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger23_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger31_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger32_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger33_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RThumb1_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/RThumb.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/RThumb.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RThumb2_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RThumb3_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
       </geometry>
     </collision>
   </link>
@@ -804,6 +1284,198 @@
     <parent link="r_ankle"/>
     <child link="r_toe"/>
     <limit effort="30" lower="-0.78539815" upper="0" velocity="0" />
+  </joint>
+
+  <joint name="LFinger11" type="revolute">
+    <origin xyz="0.10937 0.02468 0.00329" rpy="2.98023e-08 1.06465 0.122173"/>
+    <axis xyz="0.121869 -0.992546 -4.37114e-08"/>
+    <parent link="l_wrist"/>
+    <child link="LFinger11_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LFinger12" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="LFinger11_link"/>
+    <child link="LFinger12_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LFinger13" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="LFinger12_link"/>
+    <child link="LFinger13_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LFinger21" type="revolute">
+    <origin xyz="0.11525 0 0.00329" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="l_wrist"/>
+    <child link="LFinger21_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LFinger22" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="LFinger21_link"/>
+    <child link="LFinger22_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LFinger23" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="LFinger22_link"/>
+    <child link="LFinger23_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LFinger31" type="revolute">
+    <origin xyz="0.09936 -0.02478 0.00329" rpy="3.72529e-08 1.06465 -0.122173"/>
+    <axis xyz="-0.121869 -0.992546 -4.37114e-08"/>
+    <parent link="l_wrist"/>
+    <child link="LFinger31_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LFinger32" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="LFinger31_link"/>
+    <child link="LFinger32_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LFinger33" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="LFinger32_link"/>
+    <child link="LFinger33_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LThumb1" type="revolute">
+    <origin xyz="0.07115 -0.02465 -0.01233" rpy="-4.76837e-07 1.37881 -2.53073"/>
+    <axis xyz="-0.573576 0.819152 1.05097e-07"/>
+    <parent link="l_wrist"/>
+    <child link="LThumb1_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LThumb2" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="LThumb1_link"/>
+    <child link="LThumb2_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="LThumb3" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="LThumb2_link"/>
+    <child link="LThumb3_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RFinger11" type="revolute">
+    <origin xyz="0.10937 -0.02468 0.00329" rpy="3.72529e-08 1.06465 -0.122173"/>
+    <axis xyz="-0.121869 -0.992546 -4.37114e-08"/>
+    <parent link="r_wrist"/>
+    <child link="RFinger11_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RFinger12" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="RFinger11_link"/>
+    <child link="RFinger12_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RFinger13" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="RFinger12_link"/>
+    <child link="RFinger13_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RFinger21" type="revolute">
+    <origin xyz="0.11525 0 0.00329" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="r_wrist"/>
+    <child link="RFinger21_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RFinger22" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="RFinger21_link"/>
+    <child link="RFinger22_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RFinger23" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="RFinger22_link"/>
+    <child link="RFinger23_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RFinger31" type="revolute">
+    <origin xyz="0.09936 0.02478 0.00329" rpy="2.98023e-08 1.06465 0.122173"/>
+    <axis xyz="0.121869 -0.992546 -4.37114e-08"/>
+    <parent link="r_wrist"/>
+    <child link="RFinger31_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RFinger32" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="RFinger31_link"/>
+    <child link="RFinger32_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RFinger33" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="RFinger32_link"/>
+    <child link="RFinger33_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RThumb1" type="revolute">
+    <origin xyz="0.07115 0.02465 -0.01233" rpy="-2.68221e-07 1.37881 2.53073"/>
+    <axis xyz="0.573576 0.819152 1.05097e-07"/>
+    <parent link="r_wrist"/>
+    <child link="RThumb1_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RThumb2" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="RThumb1_link"/>
+    <child link="RThumb2_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
+  </joint>
+
+  <joint name="RThumb3" type="revolute">
+    <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
+    <axis xyz="0 -1 -4.37114e-08"/>
+    <parent link="RThumb2_link"/>
+    <child link="RThumb3_link"/>
+    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
   </joint>
 
   <joint name="l_sole_joint" type="fixed">
