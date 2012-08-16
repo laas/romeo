@@ -2,7 +2,7 @@
 <COLLADA version="1.4.0" xmlns="http://www.collada.org/2005/11/COLLADASchema">
 	<asset>
 		<contributor>
-			<author>Illusoft Collada 1.4.0 plugin for Blender - http://colladablender.illusoft.com</author>
+			<author>Aldebaran Robotics</author>
 			<authoring_tool>Blender v:249 - Illusoft Collada Exporter v:0.3.162</authoring_tool>
 			<comments></comments>
 			<copyright></copyright>
