@@ -13,6 +13,18 @@
       <mass value="4.16277"/>
       <inertia ixx="0.24187936706" ixy="-6.889635e-05" ixz="0.00282915469" iyy="0.23816771319" iyz="0.00030625215" izz="0.02147385599" />
     </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Waist.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Waist.dae" />
+      </geometry>
+    </collision>
   </link>
 
   <link name="torso">
