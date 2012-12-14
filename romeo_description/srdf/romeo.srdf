@@ -43,7 +43,6 @@
   -->
 
   <group name="all">
-    <group name="arms"/>
   </group>
 
   <!-- Romeo end effector -->
