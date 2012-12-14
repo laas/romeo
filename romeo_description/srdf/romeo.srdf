@@ -40,11 +40,11 @@
     <group name="l_arm"/>
     <group name="r_arm"/>
   </group>
+  -->
 
   <group name="all">
     <group name="arms"/>
   </group>
-  -->
 
   <!-- Romeo end effector -->
   <!-- To remove when the grippers will be added
