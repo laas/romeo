@@ -56,8 +56,6 @@
   <!-- Romeo pre-defined states -->
   <!-- Romeo pre-defined states -->
   <group_state name="half_sitting" group="all">
-    <joint name="waist" value="0 0 0.840252 0 0 0 " />
-
     <joint name="TrunkYaw"       value="0" />
 
     <joint name="NeckYaw"        value="0" />
