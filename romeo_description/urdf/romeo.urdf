@@ -1383,8 +1383,8 @@
     <axis xyz="-0.573576 0.819152 1.05097e-07"/>
     <parent link="l_wrist"/>
     <child link="LThumb1Link"/>
-    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
-    <mimic joint="LFinger11" multiplier="1" offset="0"/>
+    <limit effort="30" lower="-1.06465082555556" upper="0" velocity="0" />
+    <mimic joint="LFinger11" multiplier="-1" offset="0"/>
   </joint>
 
   <joint name="LThumb2" type="revolute">
@@ -1490,8 +1490,8 @@
     <axis xyz="0.573576 0.819152 1.05097e-07"/>
     <parent link="r_wrist"/>
     <child link="RThumb1Link"/>
-    <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
-    <mimic joint="RFinger11" multiplier="1" offset="0"/>
+    <limit effort="30" lower="-1.06465082555556" upper="0" velocity="0" />
+    <mimic joint="RFinger11" multiplier="-1" offset="0"/>
   </joint>
 
   <joint name="RThumb2" type="revolute">
