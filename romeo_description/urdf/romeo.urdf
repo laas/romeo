@@ -47,7 +47,7 @@
     </collision>
   </link>
 
-  <link name="NeckYaw_link">
+  <link name="NeckYawLink">
     <inertial>
       <origin xyz="0 -0.00183 -0.03074" rpy="0 0 0"/>
       <mass value="0.51016"/>
@@ -55,7 +55,7 @@
     </inertial>
   </link>
 
-  <link name="NeckPitch_link">
+  <link name="NeckPitchLink">
     <inertial>
       <origin xyz="-0.00472 -0.00054 0.04432" rpy="0 0 0"/>
       <mass value="0.23875"/>
@@ -75,7 +75,7 @@
     </collision>
   </link>
 
-  <link name="HeadPitch_link">
+  <link name="HeadPitchLink">
     <inertial>
       <origin xyz="0.00137 0.00027 -0.00641" rpy="0 0 0"/>
       <mass value="0.13981"/>
@@ -83,7 +83,7 @@
     </inertial>
   </link>
 
-  <link name="HeadRoll_link">
+  <link name="HeadRollLink">
     <inertial>
       <origin xyz="0.01617 0.00168 0.0757" rpy="0 0 0"/>
       <mass value="1.41282"/>
@@ -103,7 +103,7 @@
     </collision>
   </link>
 
-  <link name="LShoulderPitch_link">
+  <link name="LShoulderPitchLink">
     <inertial>
       <origin xyz="0.00149 -0.03299 0.00018" rpy="0 0 0"/>
       <mass value="0.69402"/>
@@ -111,7 +111,7 @@
     </inertial>
   </link>
 
-  <link name="LShoulderYaw_link">
+  <link name="LShoulderYawLink">
     <inertial>
       <origin xyz="0.09367 0.01373 0.00103" rpy="0 0 0"/>
       <mass value="0.57151"/>
@@ -131,7 +131,7 @@
     </collision>
   </link>
 
-  <link name="LElbowRoll_link">
+  <link name="LElbowRollLink">
     <inertial>
       <origin xyz="-0.02231 -0.0024 0" rpy="0 0 0"/>
       <mass value="0.39848"/>
@@ -139,7 +139,7 @@
     </inertial>
   </link>
 
-  <link name="LElbowYaw_link">
+  <link name="LElbowYawLink">
     <inertial>
       <origin xyz="0.06738 0.01043 -0.00031" rpy="0 0 0"/>
       <mass value="0.31265"/>
@@ -159,7 +159,7 @@
     </collision>
   </link>
 
-  <link name="LWristRoll_link">
+  <link name="LWristRollLink">
     <inertial>
       <origin xyz="-0.0593 -5e-05 -0.00069" rpy="0 0 0"/>
       <mass value="0.17563"/>
@@ -179,7 +179,7 @@
     </collision>
   </link>
 
-  <link name="LWristYaw_link">
+  <link name="LWristYawLink">
     <inertial>
       <origin xyz="-0.00746 -0.00016 -0.00022" rpy="0 0 0"/>
       <mass value="0.07595"/>
@@ -219,7 +219,7 @@
     </collision>
   </link>
 
-  <link name="RShoulderPitch_link">
+  <link name="RShoulderPitchLink">
     <inertial>
       <origin xyz="0.00149 0.03299 -0.00018" rpy="0 0 0"/>
       <mass value="0.69402"/>
@@ -227,7 +227,7 @@
     </inertial>
   </link>
 
-  <link name="RShoulderYaw_link">
+  <link name="RShoulderYawLink">
     <inertial>
       <origin xyz="0.0937 -0.01373 -0.00069" rpy="0 0 0"/>
       <mass value="0.57071"/>
@@ -247,7 +247,7 @@
     </collision>
   </link>
 
-  <link name="RElbowRoll_link">
+  <link name="RElbowRollLink">
     <inertial>
       <origin xyz="-0.02231 -0.0024 0" rpy="0 0 0"/>
       <mass value="0.39848"/>
@@ -255,7 +255,7 @@
     </inertial>
   </link>
 
-  <link name="RElbowYaw_link">
+  <link name="RElbowYawLink">
     <inertial>
       <origin xyz="0.06753 -0.00889 0.00022" rpy="0 0 0"/>
       <mass value="0.31403"/>
@@ -275,7 +275,7 @@
     </collision>
   </link>
 
-  <link name="RWristRoll_link">
+  <link name="RWristRollLink">
     <inertial>
       <origin xyz="-0.0593 -5e-05 -0.00069" rpy="0 0 0"/>
       <mass value="0.17563"/>
@@ -295,7 +295,7 @@
     </collision>
   </link>
 
-  <link name="RWristYaw_link">
+  <link name="RWristYawLink">
     <inertial>
       <origin xyz="-0.00746 -0.00016 -0.00022" rpy="0 0 0"/>
       <mass value="0.07595"/>
@@ -335,7 +335,7 @@
     </collision>
   </link>
 
-  <link name="LHipYaw_link">
+  <link name="LHipYawLink">
     <inertial>
       <origin xyz="-0.00871 -0.00022 0.06319" rpy="0 0 0"/>
       <mass value="0.49477"/>
@@ -343,7 +343,7 @@
     </inertial>
   </link>
 
-  <link name="LHipRoll_link">
+  <link name="LHipRollLink">
     <inertial>
       <origin xyz="0.00293 -0.00027 0.00011" rpy="0 0 0"/>
       <mass value="0.6607"/>
@@ -351,7 +351,7 @@
     </inertial>
   </link>
 
-  <link name="LHipPitch_link">
+  <link name="LHipPitchLink">
     <inertial>
       <origin xyz="-0.00971 0.00135 -0.15083" rpy="0 0 0"/>
       <mass value="4.33935"/>
@@ -371,7 +371,7 @@
     </collision>
   </link>
 
-  <link name="LKneePitch_link">
+  <link name="LKneePitchLink">
     <inertial>
       <origin xyz="-0.00532 -0.00075 -0.12258" rpy="0 0 0"/>
       <mass value="2.61063"/>
@@ -391,7 +391,7 @@
     </collision>
   </link>
 
-  <link name="LAnklePitch_link">
+  <link name="LAnklePitchLink">
     <inertial>
       <origin xyz="0.00059 0.00051 0.00038" rpy="0 0 0"/>
       <mass value="0.5008"/>
@@ -440,7 +440,7 @@
     </collision>
   </link>
 
-  <link name="RHipYaw_link">
+  <link name="RHipYawLink">
     <inertial>
       <origin xyz="-0.00871 0.00022 0.06319" rpy="0 0 0"/>
       <mass value="0.49477"/>
@@ -448,7 +448,7 @@
     </inertial>
   </link>
 
-  <link name="RHipRoll_link">
+  <link name="RHipRollLink">
     <inertial>
       <origin xyz="0.00293 -0.00027 0.00011" rpy="0 0 0"/>
       <mass value="0.6607"/>
@@ -456,7 +456,7 @@
     </inertial>
   </link>
 
-  <link name="RHipPitch_link">
+  <link name="RHipPitchLink">
     <inertial>
       <origin xyz="-0.00971 -0.00135 -0.15083" rpy="0 0 0"/>
       <mass value="4.33935"/>
@@ -476,7 +476,7 @@
     </collision>
   </link>
 
-  <link name="RKneePitch_link">
+  <link name="RKneePitchLink">
     <inertial>
       <origin xyz="-0.00532 0.00075 -0.12258" rpy="0 0 0"/>
       <mass value="2.61063"/>
@@ -496,7 +496,7 @@
     </collision>
   </link>
 
-  <link name="RAnklePitch_link">
+  <link name="RAnklePitchLink">
     <inertial>
       <origin xyz="0.00059 -0.00051 0.00038" rpy="0 0 0"/>
       <mass value="0.5008"/>
@@ -545,7 +545,7 @@
     </collision>
   </link>
 
-  <link name="LFinger11_link">
+  <link name="LFinger11Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -565,7 +565,7 @@
     </collision>
   </link>
 
-  <link name="LFinger12_link">
+  <link name="LFinger12Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -585,67 +585,7 @@
     </collision>
   </link>
 
-  <link name="LFinger13_link">
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0"/>
-      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
-      </geometry>
-    </collision>
-  </link>
-
-  <link name="LFinger21_link">
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0"/>
-      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </collision>
-  </link>
-
-  <link name="LFinger22_link">
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0"/>
-      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </collision>
-  </link>
-
-  <link name="LFinger23_link">
+  <link name="LFinger13Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -665,7 +605,7 @@
     </collision>
   </link>
 
-  <link name="LFinger31_link">
+  <link name="LFinger21Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -685,7 +625,7 @@
     </collision>
   </link>
 
-  <link name="LFinger32_link">
+  <link name="LFinger22Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -705,7 +645,7 @@
     </collision>
   </link>
 
-  <link name="LFinger33_link">
+  <link name="LFinger23Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -725,7 +665,67 @@
     </collision>
   </link>
 
-  <link name="LThumb1_link">
+  <link name="LFinger31Link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger32Link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LFinger33Link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="LThumb1Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -745,7 +745,7 @@
     </collision>
   </link>
 
-  <link name="LThumb2_link">
+  <link name="LThumb2Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -765,67 +765,7 @@
     </collision>
   </link>
 
-  <link name="LThumb3_link">
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0"/>
-      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
-      </geometry>
-    </collision>
-  </link>
-
-  <link name="RFinger11_link">
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0"/>
-      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </collision>
-  </link>
-
-  <link name="RFinger12_link">
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0"/>
-      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </collision>
-  </link>
-
-  <link name="RFinger13_link">
+  <link name="LThumb3Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -845,7 +785,7 @@
     </collision>
   </link>
 
-  <link name="RFinger21_link">
+  <link name="RFinger11Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -865,7 +805,7 @@
     </collision>
   </link>
 
-  <link name="RFinger22_link">
+  <link name="RFinger12Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -885,67 +825,7 @@
     </collision>
   </link>
 
-  <link name="RFinger23_link">
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0"/>
-      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
-      </geometry>
-    </collision>
-  </link>
-
-  <link name="RFinger31_link">
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0"/>
-      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </collision>
-  </link>
-
-  <link name="RFinger32_link">
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0"/>
-      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
-      </geometry>
-    </collision>
-  </link>
-
-  <link name="RFinger33_link">
+  <link name="RFinger13Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -965,7 +845,127 @@
     </collision>
   </link>
 
-  <link name="RThumb1_link">
+  <link name="RFinger21Link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger22Link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger23Link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger31Link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger32Link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RFinger33Link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RThumb1Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -985,7 +985,7 @@
     </collision>
   </link>
 
-  <link name="RThumb2_link">
+  <link name="RThumb2Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -1005,7 +1005,7 @@
     </collision>
   </link>
 
-  <link name="RThumb3_link">
+  <link name="RThumb3Link">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0"/>
@@ -1046,31 +1046,31 @@
     <origin xyz="0 0 0.0835" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
     <parent link="torso"/>
-    <child link="NeckYaw_link"/>
+    <child link="NeckYawLink"/>
     <limit effort="30" lower="-1.5707963" upper="1.5707963" velocity="5.8886917" />
   </joint>
 
   <joint name="NeckPitch" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="NeckYaw_link"/>
-    <child link="NeckPitch_link"/>
+    <parent link="NeckYawLink"/>
+    <child link="NeckPitchLink"/>
     <limit effort="30" lower="-0.698131688888889" upper="0.698131688888889" velocity="6.17848" />
   </joint>
 
   <joint name="HeadPitch" type="revolute">
     <origin xyz="0 0 0.09511" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="NeckPitch_link"/>
-    <child link="HeadPitch_link"/>
+    <parent link="NeckPitchLink"/>
+    <child link="HeadPitchLink"/>
     <limit effort="30" lower="-0.289724650888889" upper="0.349065844444444" velocity="7.2988824" />
   </joint>
 
   <joint name="HeadRoll" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
-    <parent link="HeadPitch_link"/>
-    <child link="HeadRoll_link"/>
+    <parent link="HeadPitchLink"/>
+    <child link="HeadRollLink"/>
     <limit effort="30" lower="-0.523598766666667" upper="0.523598766666667" velocity="4.7442645" />
   </joint>
 
@@ -1078,54 +1078,54 @@
     <origin xyz="0.005 0.19 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
     <parent link="torso"/>
-    <child link="LShoulderPitch_link"/>
+    <child link="LShoulderPitchLink"/>
     <limit effort="30" lower="-1.51843642333333" upper="2.09439506666667" velocity="6.52664058" />
   </joint>
 
   <joint name="LShoulderYaw" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <parent link="LShoulderPitch_link"/>
-    <child link="LShoulderYaw_link"/>
+    <parent link="LShoulderPitchLink"/>
+    <child link="LShoulderYawLink"/>
     <limit effort="30" lower="-0.200712860555556" upper="1.43989660833333" velocity="10.333784" />
   </joint>
 
   <joint name="LElbowRoll" type="revolute">
     <origin xyz="0.205 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
-    <parent link="LShoulderYaw_link"/>
-    <child link="LElbowRoll_link"/>
+    <parent link="LShoulderYawLink"/>
+    <child link="LElbowRollLink"/>
     <limit effort="30" lower="-2.60054054111111" upper="1.39626337777778" velocity="10.333784" />
   </joint>
 
   <joint name="LElbowYaw" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <parent link="LElbowRoll_link"/>
-    <child link="LElbowYaw_link"/>
+    <parent link="LElbowRollLink"/>
+    <child link="LElbowYawLink"/>
     <limit effort="30" lower="-1.5707963" upper="0.401425721111111" velocity="10.3810644" />
   </joint>
 
   <joint name="LWristRoll" type="revolute">
     <origin xyz="0.182 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
-    <parent link="LElbowYaw_link"/>
-    <child link="LWristRoll_link"/>
+    <parent link="LElbowYawLink"/>
+    <child link="LWristRollLink"/>
     <limit effort="30" lower="-3.66519136666667" upper="0.523598766666667" velocity="0" />
   </joint>
 
   <joint name="LWristYaw" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="LWristRoll_link"/>
-    <child link="LWristYaw_link"/>
+    <parent link="LWristRollLink"/>
+    <child link="LWristYawLink"/>
     <limit effort="30" lower="-0.488692182222222" upper="0.488692182222222" velocity="0" />
   </joint>
 
   <joint name="LWristPitch" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <parent link="LWristYaw_link"/>
+    <parent link="LWristYawLink"/>
     <child link="l_wrist"/>
     <limit effort="30" lower="-0.977384364444444" upper="0.977384364444444" velocity="0" />
   </joint>
@@ -1134,54 +1134,54 @@
     <origin xyz="0.005 -0.19 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
     <parent link="torso"/>
-    <child link="RShoulderPitch_link"/>
+    <child link="RShoulderPitchLink"/>
     <limit effort="30" lower="-1.51843642333333" upper="2.09439506666667" velocity="6.52664058" />
   </joint>
 
   <joint name="RShoulderYaw" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <parent link="RShoulderPitch_link"/>
-    <child link="RShoulderYaw_link"/>
+    <parent link="RShoulderPitchLink"/>
+    <child link="RShoulderYawLink"/>
     <limit effort="30" lower="-1.43989660833333" upper="0.200712860555556" velocity="10.333784" />
   </joint>
 
   <joint name="RElbowRoll" type="revolute">
     <origin xyz="0.205 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
-    <parent link="RShoulderYaw_link"/>
-    <child link="RElbowRoll_link"/>
+    <parent link="RShoulderYawLink"/>
+    <child link="RElbowRollLink"/>
     <limit effort="30" lower="-1.39626337777778" upper="2.60054054111111" velocity="10.333784" />
   </joint>
 
   <joint name="RElbowYaw" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <parent link="RElbowRoll_link"/>
-    <child link="RElbowYaw_link"/>
+    <parent link="RElbowRollLink"/>
+    <child link="RElbowYawLink"/>
     <limit effort="30" lower="-0.401425721111111" upper="1.5707963" velocity="10.3810644" />
   </joint>
 
   <joint name="RWristRoll" type="revolute">
     <origin xyz="0.182 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
-    <parent link="RElbowYaw_link"/>
-    <child link="RWristRoll_link"/>
+    <parent link="RElbowYawLink"/>
+    <child link="RWristRollLink"/>
     <limit effort="30" lower="-0.523598766666667" upper="3.66519136666667" velocity="0" />
   </joint>
 
   <joint name="RWristYaw" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="RWristRoll_link"/>
-    <child link="RWristYaw_link"/>
+    <parent link="RWristRollLink"/>
+    <child link="RWristYawLink"/>
     <limit effort="30" lower="-0.488692182222222" upper="0.488692182222222" velocity="0" />
   </joint>
 
   <joint name="RWristPitch" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <parent link="RWristYaw_link"/>
+    <parent link="RWristYawLink"/>
     <child link="r_wrist"/>
     <limit effort="30" lower="-0.977384364444444" upper="0.977384364444444" velocity="0" />
   </joint>
@@ -1190,46 +1190,46 @@
     <origin xyz="0 0.096 -0.20004" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
     <parent link="body"/>
-    <child link="LHipYaw_link"/>
+    <child link="LHipYawLink"/>
     <limit effort="30" lower="-0.261799383333333" upper="0.261799383333333" velocity="8.082461" />
   </joint>
 
   <joint name="LHipRoll" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
-    <parent link="LHipYaw_link"/>
-    <child link="LHipRoll_link"/>
+    <parent link="LHipYawLink"/>
+    <child link="LHipRollLink"/>
     <limit effort="30" lower="-0.261799383333333" upper="0.523598766666667" velocity="10.289294" />
   </joint>
 
   <joint name="LHipPitch" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="LHipRoll_link"/>
-    <child link="LHipPitch_link"/>
+    <parent link="LHipRollLink"/>
+    <child link="LHipPitchLink"/>
     <limit effort="30" lower="-1.71042263777778" upper="0.523598766666667" velocity="6.7799634" />
   </joint>
 
   <joint name="LKneePitch" type="revolute">
     <origin xyz="0 0 -0.32" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="LHipPitch_link"/>
-    <child link="LKneePitch_link"/>
+    <parent link="LHipPitchLink"/>
+    <child link="LKneePitchLink"/>
     <limit effort="30" lower="-0.0523598766666667" upper="2.25147469666667" velocity="8.27600953" />
   </joint>
 
   <joint name="LAnklePitch" type="revolute">
     <origin xyz="0 0 -0.29" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="LKneePitch_link"/>
-    <child link="LAnklePitch_link"/>
+    <parent link="LKneePitchLink"/>
+    <child link="LAnklePitchLink"/>
     <limit effort="30" lower="-0.78539815" upper="0.523598766666667" velocity="6.7799634" />
   </joint>
 
   <joint name="LAnkleRoll" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
-    <parent link="LAnklePitch_link"/>
+    <parent link="LAnklePitchLink"/>
     <child link="l_ankle"/>
     <limit effort="30" lower="-0.349065844444444" upper="0.349065844444444" velocity="10.28929" />
   </joint>
@@ -1246,46 +1246,46 @@
     <origin xyz="0 -0.096 -0.20004" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
     <parent link="body"/>
-    <child link="RHipYaw_link"/>
+    <child link="RHipYawLink"/>
     <limit effort="30" lower="-0.261799383333333" upper="0.261799383333333" velocity="8.082461" />
   </joint>
 
   <joint name="RHipRoll" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
-    <parent link="RHipYaw_link"/>
-    <child link="RHipRoll_link"/>
+    <parent link="RHipYawLink"/>
+    <child link="RHipRollLink"/>
     <limit effort="30" lower="-0.523598766666667" upper="0.261799383333333" velocity="10.289294" />
   </joint>
 
   <joint name="RHipPitch" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="RHipRoll_link"/>
-    <child link="RHipPitch_link"/>
+    <parent link="RHipRollLink"/>
+    <child link="RHipPitchLink"/>
     <limit effort="30" lower="-1.71042263777778" upper="0.523598766666667" velocity="6.7799634" />
   </joint>
 
   <joint name="RKneePitch" type="revolute">
     <origin xyz="0 0 -0.32" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="RHipPitch_link"/>
-    <child link="RKneePitch_link"/>
+    <parent link="RHipPitchLink"/>
+    <child link="RKneePitchLink"/>
     <limit effort="30" lower="-0.0523598766666667" upper="2.25147469666667" velocity="8.27600953" />
   </joint>
 
   <joint name="RAnklePitch" type="revolute">
     <origin xyz="0 0 -0.29" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="RKneePitch_link"/>
-    <child link="RAnklePitch_link"/>
+    <parent link="RKneePitchLink"/>
+    <child link="RAnklePitchLink"/>
     <limit effort="30" lower="-0.78539815" upper="0.523598766666667" velocity="6.7799634" />
   </joint>
 
   <joint name="RAnkleRoll" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
-    <parent link="RAnklePitch_link"/>
+    <parent link="RAnklePitchLink"/>
     <child link="r_ankle"/>
     <limit effort="30" lower="-0.349065844444444" upper="0.349065844444444" velocity="10.28929" />
   </joint>
@@ -1302,15 +1302,15 @@
     <origin xyz="0.10937 0.02468 0.00329" rpy="2.98023e-08 1.06465 0.122173"/>
     <axis xyz="0.121869 -0.992546 -4.37114e-08"/>
     <parent link="l_wrist"/>
-    <child link="LFinger11_link"/>
+    <child link="LFinger11Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
   </joint>
 
   <joint name="LFinger12" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="LFinger11_link"/>
-    <child link="LFinger12_link"/>
+    <parent link="LFinger11Link"/>
+    <child link="LFinger12Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1318,8 +1318,8 @@
   <joint name="LFinger13" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="LFinger12_link"/>
-    <child link="LFinger13_link"/>
+    <parent link="LFinger12Link"/>
+    <child link="LFinger13Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1328,7 +1328,7 @@
     <origin xyz="0.11525 0 0.00329" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
     <parent link="l_wrist"/>
-    <child link="LFinger21_link"/>
+    <child link="LFinger21Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1336,8 +1336,8 @@
   <joint name="LFinger22" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="LFinger21_link"/>
-    <child link="LFinger22_link"/>
+    <parent link="LFinger21Link"/>
+    <child link="LFinger22Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1345,8 +1345,8 @@
   <joint name="LFinger23" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="LFinger22_link"/>
-    <child link="LFinger23_link"/>
+    <parent link="LFinger22Link"/>
+    <child link="LFinger23Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1355,7 +1355,7 @@
     <origin xyz="0.09936 -0.02478 0.00329" rpy="3.72529e-08 1.06465 -0.122173"/>
     <axis xyz="-0.121869 -0.992546 -4.37114e-08"/>
     <parent link="l_wrist"/>
-    <child link="LFinger31_link"/>
+    <child link="LFinger31Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1363,8 +1363,8 @@
   <joint name="LFinger32" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="LFinger31_link"/>
-    <child link="LFinger32_link"/>
+    <parent link="LFinger31Link"/>
+    <child link="LFinger32Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1372,8 +1372,8 @@
   <joint name="LFinger33" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="LFinger32_link"/>
-    <child link="LFinger33_link"/>
+    <parent link="LFinger32Link"/>
+    <child link="LFinger33Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1382,7 +1382,7 @@
     <origin xyz="0.07115 -0.02465 -0.01233" rpy="-4.76837e-07 1.37881 -2.53073"/>
     <axis xyz="-0.573576 0.819152 1.05097e-07"/>
     <parent link="l_wrist"/>
-    <child link="LThumb1_link"/>
+    <child link="LThumb1Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1390,8 +1390,8 @@
   <joint name="LThumb2" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="LThumb1_link"/>
-    <child link="LThumb2_link"/>
+    <parent link="LThumb1Link"/>
+    <child link="LThumb2Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1399,8 +1399,8 @@
   <joint name="LThumb3" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="LThumb2_link"/>
-    <child link="LThumb3_link"/>
+    <parent link="LThumb2Link"/>
+    <child link="LThumb3Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="LFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1409,15 +1409,15 @@
     <origin xyz="0.10937 -0.02468 0.00329" rpy="3.72529e-08 1.06465 -0.122173"/>
     <axis xyz="-0.121869 -0.992546 -4.37114e-08"/>
     <parent link="r_wrist"/>
-    <child link="RFinger11_link"/>
+    <child link="RFinger11Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
   </joint>
 
   <joint name="RFinger12" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="RFinger11_link"/>
-    <child link="RFinger12_link"/>
+    <parent link="RFinger11Link"/>
+    <child link="RFinger12Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1425,8 +1425,8 @@
   <joint name="RFinger13" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="RFinger12_link"/>
-    <child link="RFinger13_link"/>
+    <parent link="RFinger12Link"/>
+    <child link="RFinger13Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1435,7 +1435,7 @@
     <origin xyz="0.11525 0 0.00329" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
     <parent link="r_wrist"/>
-    <child link="RFinger21_link"/>
+    <child link="RFinger21Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1443,8 +1443,8 @@
   <joint name="RFinger22" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="RFinger21_link"/>
-    <child link="RFinger22_link"/>
+    <parent link="RFinger21Link"/>
+    <child link="RFinger22Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1452,8 +1452,8 @@
   <joint name="RFinger23" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="RFinger22_link"/>
-    <child link="RFinger23_link"/>
+    <parent link="RFinger22Link"/>
+    <child link="RFinger23Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1462,7 +1462,7 @@
     <origin xyz="0.09936 0.02478 0.00329" rpy="2.98023e-08 1.06465 0.122173"/>
     <axis xyz="0.121869 -0.992546 -4.37114e-08"/>
     <parent link="r_wrist"/>
-    <child link="RFinger31_link"/>
+    <child link="RFinger31Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1470,8 +1470,8 @@
   <joint name="RFinger32" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="RFinger31_link"/>
-    <child link="RFinger32_link"/>
+    <parent link="RFinger31Link"/>
+    <child link="RFinger32Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1479,8 +1479,8 @@
   <joint name="RFinger33" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="RFinger32_link"/>
-    <child link="RFinger33_link"/>
+    <parent link="RFinger32Link"/>
+    <child link="RFinger33Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1489,7 +1489,7 @@
     <origin xyz="0.07115 0.02465 -0.01233" rpy="-2.68221e-07 1.37881 2.53073"/>
     <axis xyz="0.573576 0.819152 1.05097e-07"/>
     <parent link="r_wrist"/>
-    <child link="RThumb1_link"/>
+    <child link="RThumb1Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1497,8 +1497,8 @@
   <joint name="RThumb2" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="RThumb1_link"/>
-    <child link="RThumb2_link"/>
+    <parent link="RThumb1Link"/>
+    <child link="RThumb2Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1506,8 +1506,8 @@
   <joint name="RThumb3" type="revolute">
     <origin xyz="0.01818 0 0" rpy="4.64506e-08 1.06465 7.88574e-08"/>
     <axis xyz="0 -1 -4.37114e-08"/>
-    <parent link="RThumb2_link"/>
-    <child link="RThumb3_link"/>
+    <parent link="RThumb2Link"/>
+    <child link="RThumb3Link"/>
     <limit effort="30" lower="0" upper="1.06465082555556" velocity="0" />
     <mimic joint="RFinger11" multiplier="1" offset="0"/>
   </joint>
@@ -1525,7 +1525,7 @@
 
   <!-- Humanoid standard frame: gaze -->
   <joint name="gaze_joint" type="fixed">
-    <parent link="HeadRoll_link"/>
+    <parent link="HeadRollLink"/>
     <child link="gaze"/>
     <origin xyz="0.1111 0 0.0515" rpy="0 0 0" />
   </joint>
