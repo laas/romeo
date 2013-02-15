@@ -5,6 +5,9 @@
    FIXME: fill missing data: sole, gripper and sensors
   -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="romeo">
+  <material name="LightGrey">
+    <color rgba="0.9 0.9 0.9 1.0"/>
+  </material>
   <link name="base_link"/>
 
   <link name="body">
@@ -16,13 +19,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Waist.dae" />
+	<mesh filename="package://romeo_description/meshes/Waist.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Waist.dae" />
+	<mesh filename="package://romeo_description/meshes/Waist.stl" />
       </geometry>
     </collision>
   </link>
@@ -36,13 +40,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Torso.dae" />
+	<mesh filename="package://romeo_description/meshes/Torso.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Torso.dae" />
+	<mesh filename="package://romeo_description/meshes/Torso.stl" />
       </geometry>
     </collision>
   </link>
@@ -64,13 +69,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/NeckPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/NeckPitch.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/NeckPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/NeckPitch.stl" />
       </geometry>
     </collision>
   </link>
@@ -92,13 +98,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/HeadRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/HeadRoll.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/HeadRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/HeadRoll.stl" />
       </geometry>
     </collision>
   </link>
@@ -120,13 +127,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LShoulderYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/LShoulderYaw.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LShoulderYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/LShoulderYaw.stl" />
       </geometry>
     </collision>
   </link>
@@ -148,13 +156,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LElbowYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/LElbowYaw.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LElbowYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/LElbowYaw.stl" />
       </geometry>
     </collision>
   </link>
@@ -168,13 +177,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LWristRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/LWristRoll.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LWristRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/LWristRoll.stl" />
       </geometry>
     </collision>
   </link>
@@ -188,13 +198,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/WristYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/WristYaw.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/WristYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/WristYaw.stl" />
       </geometry>
     </collision>
   </link>
@@ -208,13 +219,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LHand.dae" />
+	<mesh filename="package://romeo_description/meshes/LHand.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LHand.dae" />
+	<mesh filename="package://romeo_description/meshes/LHand.stl" />
       </geometry>
     </collision>
   </link>
@@ -236,13 +248,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RShoulderYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/RShoulderYaw.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RShoulderYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/RShoulderYaw.stl" />
       </geometry>
     </collision>
   </link>
@@ -264,13 +277,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RElbowYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/RElbowYaw.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RElbowYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/RElbowYaw.stl" />
       </geometry>
     </collision>
   </link>
@@ -284,13 +298,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RWristRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/RWristRoll.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RWristRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/RWristRoll.stl" />
       </geometry>
     </collision>
   </link>
@@ -304,13 +319,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/WristYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/WristYaw.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/WristYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/WristYaw.stl" />
       </geometry>
     </collision>
   </link>
@@ -324,13 +340,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RHand.dae" />
+	<mesh filename="package://romeo_description/meshes/RHand.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RHand.dae" />
+	<mesh filename="package://romeo_description/meshes/RHand.stl" />
       </geometry>
     </collision>
   </link>
@@ -360,13 +377,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LHipPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LHipPitch.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LHipPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LHipPitch.stl" />
       </geometry>
     </collision>
   </link>
@@ -380,13 +398,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LKneePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LKneePitch.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LKneePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LKneePitch.stl" />
       </geometry>
     </collision>
   </link>
@@ -408,13 +427,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LAnkleRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/LAnkleRoll.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LAnkleRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/LAnkleRoll.stl" />
       </geometry>
     </collision>
   </link>
@@ -429,13 +449,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LToePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LToePitch.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LToePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LToePitch.stl" />
       </geometry>
     </collision>
   </link>
@@ -465,13 +486,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RHipPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RHipPitch.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RHipPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RHipPitch.stl" />
       </geometry>
     </collision>
   </link>
@@ -485,13 +507,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RKneePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RKneePitch.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RKneePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RKneePitch.stl" />
       </geometry>
     </collision>
   </link>
@@ -513,13 +536,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RAnkleRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/RAnkleRoll.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RAnkleRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/RAnkleRoll.stl" />
       </geometry>
     </collision>
   </link>
@@ -534,13 +558,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RToePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RToePitch.stl" />
       </geometry>
+      <material name="LightGrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RToePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RToePitch.stl" />
       </geometry>
     </collision>
   </link>
