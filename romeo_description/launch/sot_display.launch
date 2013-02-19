@@ -1,0 +1,12 @@
+<launch>
+	<arg name="model" value="$(find romeo_description)/urdf/romeo_small.urdf"/>
+	<arg name="gui" default="True" />
+	<param name="robot_description" textfile="$(arg model)" />
+	<param name="use_gui" value="$(arg gui)"/>
+
+	<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" >
+		<env name="ROS_NAMESPACE" value="/dynamic_graph"/>
+	</node>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find romeo_description)/launch/romeo.vcg" />
+</launch>
+
