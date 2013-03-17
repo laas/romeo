@@ -559,7 +559,7 @@
     <axis xyz="0 0 1"/>
     <parent link="body"/>
     <child link="torso"/>
-    <limit effort="30" lower="-0.78539815" upper="0.78539815" velocity="0" />
+    <limit effort="0" lower="-0.78539815" upper="0.78539815" velocity="0" />
   </joint>
 
   <joint name="NeckYaw" type="revolute">
@@ -567,7 +567,7 @@
     <axis xyz="0 0 1"/>
     <parent link="torso"/>
     <child link="NeckYawLink"/>
-    <limit effort="30" lower="-1.5707963" upper="1.5707963" velocity="5.8886917" />
+    <limit effort="24.2532552" lower="-1.5707963" upper="1.5707963" velocity="5.8886917" />
   </joint>
 
   <joint name="NeckPitch" type="revolute">
@@ -575,7 +575,7 @@
     <axis xyz="0 1 0"/>
     <parent link="NeckYawLink"/>
     <child link="NeckPitchLink"/>
-    <limit effort="30" lower="-0.698131688888889" upper="0.698131688888889" velocity="6.17848" />
+    <limit effort="23.115708" lower="-0.698131688888889" upper="0.698131688888889" velocity="6.17848" />
   </joint>
 
   <joint name="HeadPitch" type="revolute">
@@ -583,7 +583,7 @@
     <axis xyz="0 1 0"/>
     <parent link="NeckPitchLink"/>
     <child link="HeadPitchLink"/>
-    <limit effort="30" lower="-0.289724650888889" upper="0.349065844444444" velocity="7.2988824" />
+    <limit effort="14.6811456" lower="-0.289724650888889" upper="0.349065844444444" velocity="7.2988824" />
   </joint>
 
   <joint name="HeadRoll" type="revolute">
@@ -591,7 +591,7 @@
     <axis xyz="1 0 0"/>
     <parent link="HeadPitchLink"/>
     <child link="HeadRollLink"/>
-    <limit effort="30" lower="-0.523598766666667" upper="0.523598766666667" velocity="4.7442645" />
+    <limit effort="22.586421" lower="-0.523598766666667" upper="0.523598766666667" velocity="4.7442645" />
   </joint>
 
   <joint name="LShoulderPitch" type="revolute">
@@ -599,7 +599,7 @@
     <axis xyz="0 1 0"/>
     <parent link="torso"/>
     <child link="LShoulderPitchLink"/>
-    <limit effort="30" lower="-1.51843642333333" upper="2.09439506666667" velocity="6.52664058" />
+    <limit effort="21.882612" lower="-1.51843642333333" upper="2.09439506666667" velocity="6.52664058" />
   </joint>
 
   <joint name="LShoulderYaw" type="revolute">
@@ -607,7 +607,7 @@
     <axis xyz="0 0 1"/>
     <parent link="LShoulderPitchLink"/>
     <child link="LShoulderYawLink"/>
-    <limit effort="30" lower="-0.200712860555556" upper="1.43989660833333" velocity="10.333784" />
+    <limit effort="13.820682" lower="-0.200712860555556" upper="1.43989660833333" velocity="10.333784" />
   </joint>
 
   <joint name="LElbowRoll" type="revolute">
@@ -615,7 +615,7 @@
     <axis xyz="1 0 0"/>
     <parent link="LShoulderYawLink"/>
     <child link="LElbowRollLink"/>
-    <limit effort="30" lower="-2.60054054111111" upper="1.39626337777778" velocity="10.333784" />
+    <limit effort="13.820682" lower="-2.60054054111111" upper="1.39626337777778" velocity="10.333784" />
   </joint>
 
   <joint name="LElbowYaw" type="revolute">
@@ -623,7 +623,7 @@
     <axis xyz="0 0 1"/>
     <parent link="LElbowRollLink"/>
     <child link="LElbowYawLink"/>
-    <limit effort="30" lower="-1.5707963" upper="0.401425721111111" velocity="10.3810644" />
+    <limit effort="13.757736" lower="-1.5707963" upper="0.401425721111111" velocity="10.3810644" />
   </joint>
 
   <joint name="LWristRoll" type="revolute">
@@ -631,7 +631,7 @@
     <axis xyz="1 0 0"/>
     <parent link="LElbowYawLink"/>
     <child link="LWristRollLink"/>
-    <limit effort="30" lower="-3.66519136666667" upper="0.523598766666667" velocity="0" />
+    <limit effort="0" lower="-3.66519136666667" upper="0.523598766666667" velocity="0" />
   </joint>
 
   <joint name="LWristYaw" type="revolute">
@@ -639,7 +639,7 @@
     <axis xyz="0 1 0"/>
     <parent link="LWristRollLink"/>
     <child link="LWristYawLink"/>
-    <limit effort="30" lower="-0.488692182222222" upper="0.488692182222222" velocity="0" />
+    <limit effort="0" lower="-0.488692182222222" upper="0.488692182222222" velocity="0" />
   </joint>
 
   <joint name="LWristPitch" type="revolute">
@@ -647,7 +647,7 @@
     <axis xyz="0 0 1"/>
     <parent link="LWristYawLink"/>
     <child link="l_wrist"/>
-    <limit effort="30" lower="-0.977384364444444" upper="0.977384364444444" velocity="0" />
+    <limit effort="0" lower="-0.977384364444444" upper="0.977384364444444" velocity="0" />
   </joint>
 
   <joint name="RShoulderPitch" type="revolute">
@@ -655,7 +655,7 @@
     <axis xyz="0 1 0"/>
     <parent link="torso"/>
     <child link="RShoulderPitchLink"/>
-    <limit effort="30" lower="-1.51843642333333" upper="2.09439506666667" velocity="6.52664058" />
+    <limit effort="21.882612" lower="-1.51843642333333" upper="2.09439506666667" velocity="6.52664058" />
   </joint>
 
   <joint name="RShoulderYaw" type="revolute">
@@ -663,7 +663,7 @@
     <axis xyz="0 0 1"/>
     <parent link="RShoulderPitchLink"/>
     <child link="RShoulderYawLink"/>
-    <limit effort="30" lower="-1.43989660833333" upper="0.200712860555556" velocity="10.333784" />
+    <limit effort="13.820682" lower="-1.43989660833333" upper="0.200712860555556" velocity="10.333784" />
   </joint>
 
   <joint name="RElbowRoll" type="revolute">
@@ -671,7 +671,7 @@
     <axis xyz="1 0 0"/>
     <parent link="RShoulderYawLink"/>
     <child link="RElbowRollLink"/>
-    <limit effort="30" lower="-1.39626337777778" upper="2.60054054111111" velocity="10.333784" />
+    <limit effort="13.820682" lower="-1.39626337777778" upper="2.60054054111111" velocity="10.333784" />
   </joint>
 
   <joint name="RElbowYaw" type="revolute">
@@ -679,7 +679,7 @@
     <axis xyz="0 0 1"/>
     <parent link="RElbowRollLink"/>
     <child link="RElbowYawLink"/>
-    <limit effort="30" lower="-0.401425721111111" upper="1.5707963" velocity="10.3810644" />
+    <limit effort="13.757736" lower="-0.401425721111111" upper="1.5707963" velocity="10.3810644" />
   </joint>
 
   <joint name="RWristRoll" type="revolute">
@@ -687,7 +687,7 @@
     <axis xyz="1 0 0"/>
     <parent link="RElbowYawLink"/>
     <child link="RWristRollLink"/>
-    <limit effort="30" lower="-0.523598766666667" upper="3.66519136666667" velocity="0" />
+    <limit effort="0" lower="-0.523598766666667" upper="3.66519136666667" velocity="0" />
   </joint>
 
   <joint name="RWristYaw" type="revolute">
@@ -695,7 +695,7 @@
     <axis xyz="0 1 0"/>
     <parent link="RWristRollLink"/>
     <child link="RWristYawLink"/>
-    <limit effort="30" lower="-0.488692182222222" upper="0.488692182222222" velocity="0" />
+    <limit effort="0" lower="-0.488692182222222" upper="0.488692182222222" velocity="0" />
   </joint>
 
   <joint name="RWristPitch" type="revolute">
@@ -703,7 +703,7 @@
     <axis xyz="0 0 1"/>
     <parent link="RWristYawLink"/>
     <child link="r_wrist"/>
-    <limit effort="30" lower="-0.977384364444444" upper="0.977384364444444" velocity="0" />
+    <limit effort="0" lower="-0.977384364444444" upper="0.977384364444444" velocity="0" />
   </joint>
 
   <joint name="LHipYaw" type="revolute">
@@ -711,7 +711,7 @@
     <axis xyz="0 0 1"/>
     <parent link="body"/>
     <child link="LHipYawLink"/>
-    <limit effort="30" lower="-0.261799383333333" upper="0.261799383333333" velocity="8.082461" />
+    <limit effort="17.754" lower="-0.261799383333333" upper="0.261799383333333" velocity="8.082461" />
   </joint>
 
   <joint name="LHipRoll" type="revolute">
@@ -719,7 +719,7 @@
     <axis xyz="1 0 0"/>
     <parent link="LHipYawLink"/>
     <child link="LHipRollLink"/>
-    <limit effort="30" lower="-0.261799383333333" upper="0.523598766666667" velocity="10.289294" />
+    <limit effort="27.911346822" lower="-0.261799383333333" upper="0.523598766666667" velocity="10.289294" />
   </joint>
 
   <joint name="LHipPitch" type="revolute">
@@ -727,7 +727,7 @@
     <axis xyz="0 1 0"/>
     <parent link="LHipRollLink"/>
     <child link="LHipPitchLink"/>
-    <limit effort="30" lower="-1.71042263777778" upper="0.523598766666667" velocity="6.7799634" />
+    <limit effort="42.35835006" lower="-1.71042263777778" upper="0.523598766666667" velocity="6.7799634" />
   </joint>
 
   <joint name="LKneePitch" type="revolute">
@@ -735,7 +735,7 @@
     <axis xyz="0 1 0"/>
     <parent link="LHipPitchLink"/>
     <child link="LKneePitchLink"/>
-    <limit effort="30" lower="-0.0523598766666667" upper="2.25147469666667" velocity="8.27600953" />
+    <limit effort="17.350636374" lower="-0.0523598766666667" upper="2.25147469666667" velocity="8.27600953" />
   </joint>
 
   <joint name="LAnklePitch" type="revolute">
@@ -743,7 +743,7 @@
     <axis xyz="0 1 0"/>
     <parent link="LKneePitchLink"/>
     <child link="LAnklePitchLink"/>
-    <limit effort="30" lower="-0.78539815" upper="0.523598766666667" velocity="6.7799634" />
+    <limit effort="42.35835006" lower="-0.78539815" upper="0.523598766666667" velocity="6.7799634" />
   </joint>
 
   <joint name="LAnkleRoll" type="revolute">
@@ -751,7 +751,7 @@
     <axis xyz="1 0 0"/>
     <parent link="LAnklePitchLink"/>
     <child link="l_ankle"/>
-    <limit effort="30" lower="-0.349065844444444" upper="0.349065844444444" velocity="10.28929" />
+    <limit effort="27.911346822" lower="-0.349065844444444" upper="0.349065844444444" velocity="10.28929" />
   </joint>
 
   <joint name="LToePitch" type="revolute">
@@ -759,7 +759,7 @@
     <axis xyz="0 1 0"/>
     <parent link="l_ankle"/>
     <child link="l_toe"/>
-    <limit effort="30" lower="-0.78539815" upper="0" velocity="0" />
+    <limit effort="0" lower="-0.78539815" upper="0" velocity="0" />
   </joint>
 
   <joint name="RHipYaw" type="revolute">
@@ -767,7 +767,7 @@
     <axis xyz="0 0 1"/>
     <parent link="body"/>
     <child link="RHipYawLink"/>
-    <limit effort="30" lower="-0.261799383333333" upper="0.261799383333333" velocity="8.082461" />
+    <limit effort="17.754" lower="-0.261799383333333" upper="0.261799383333333" velocity="8.082461" />
   </joint>
 
   <joint name="RHipRoll" type="revolute">
@@ -775,7 +775,7 @@
     <axis xyz="1 0 0"/>
     <parent link="RHipYawLink"/>
     <child link="RHipRollLink"/>
-    <limit effort="30" lower="-0.523598766666667" upper="0.261799383333333" velocity="10.289294" />
+    <limit effort="27.911346822" lower="-0.523598766666667" upper="0.261799383333333" velocity="10.289294" />
   </joint>
 
   <joint name="RHipPitch" type="revolute">
@@ -783,7 +783,7 @@
     <axis xyz="0 1 0"/>
     <parent link="RHipRollLink"/>
     <child link="RHipPitchLink"/>
-    <limit effort="30" lower="-1.71042263777778" upper="0.523598766666667" velocity="6.7799634" />
+    <limit effort="42.35835006" lower="-1.71042263777778" upper="0.523598766666667" velocity="6.7799634" />
   </joint>
 
   <joint name="RKneePitch" type="revolute">
@@ -791,7 +791,7 @@
     <axis xyz="0 1 0"/>
     <parent link="RHipPitchLink"/>
     <child link="RKneePitchLink"/>
-    <limit effort="30" lower="-0.0523598766666667" upper="2.25147469666667" velocity="8.27600953" />
+    <limit effort="17.350636374" lower="-0.0523598766666667" upper="2.25147469666667" velocity="8.27600953" />
   </joint>
 
   <joint name="RAnklePitch" type="revolute">
@@ -799,7 +799,7 @@
     <axis xyz="0 1 0"/>
     <parent link="RKneePitchLink"/>
     <child link="RAnklePitchLink"/>
-    <limit effort="30" lower="-0.78539815" upper="0.523598766666667" velocity="6.7799634" />
+    <limit effort="42.35835006" lower="-0.78539815" upper="0.523598766666667" velocity="6.7799634" />
   </joint>
 
   <joint name="RAnkleRoll" type="revolute">
@@ -807,7 +807,7 @@
     <axis xyz="1 0 0"/>
     <parent link="RAnklePitchLink"/>
     <child link="r_ankle"/>
-    <limit effort="30" lower="-0.349065844444444" upper="0.349065844444444" velocity="10.28929" />
+    <limit effort="27.911346822" lower="-0.349065844444444" upper="0.349065844444444" velocity="10.28929" />
   </joint>
 
   <joint name="RToePitch" type="revolute">
@@ -815,7 +815,7 @@
     <axis xyz="0 1 0"/>
     <parent link="r_ankle"/>
     <child link="r_toe"/>
-    <limit effort="30" lower="-0.78539815" upper="0" velocity="0" />
+    <limit effort="0" lower="-0.78539815" upper="0" velocity="0" />
   </joint>
 
   <joint name="l_sole_joint" type="fixed">
