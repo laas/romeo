@@ -16,13 +16,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Waist.dae" />
+	<mesh filename="package://romeo_description/meshes/Waist.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Waist.dae" />
+	<mesh filename="package://romeo_description/meshes/Waist.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -31,18 +31,19 @@
     <inertial>
       <origin xyz="0.0023 0.00038 -0.04854" rpy="0 0 0"/>
       <mass value="9.9216"/>
-      <inertia ixx="0.12933235299" ixy="-0.00035965149" ixz="0.00283888003" iyy="0.12683108985" iyz="-0.00200842624" izz="0.11062739082" />
+      <inertia ixx="0.12933235299" ixy="-0.00035965149" ixz="0.00283888003" iyy="0.12683108985" iyz="-0.00200842624" 
+izz="0.11062739082" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Torso.dae" />
+	<mesh filename="package://romeo_description/meshes/Torso.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Torso.dae" />
+	<mesh filename="package://romeo_description/meshes/Torso.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -51,7 +52,8 @@
     <inertial>
       <origin xyz="0 -0.00183 -0.03074" rpy="0 0 0"/>
       <mass value="0.51016"/>
-      <inertia ixx="0.00122158912" ixy="-8.014e-08" ixz="1.145e-08" iyy="0.00124607826" iyz="-1.84095e-06" izz="0.00018796505" />
+      <inertia ixx="0.00122158912" ixy="-8.014e-08" ixz="1.145e-08" iyy="0.00124607826" iyz="-1.84095e-06" 
+izz="0.00018796505" />
     </inertial>
   </link>
 
@@ -59,18 +61,19 @@
     <inertial>
       <origin xyz="-0.00472 -0.00054 0.04432" rpy="0 0 0"/>
       <mass value="0.23875"/>
-      <inertia ixx="0.0008660225" ixy="-1.57263e-06" ixz="6.138255e-05" iyy="0.00081828666" iyz="9.69515e-06" izz="0.00023891895" />
+      <inertia ixx="0.0008660225" ixy="-1.57263e-06" ixz="6.138255e-05" iyy="0.00081828666" iyz="9.69515e-06" 
+izz="0.00023891895" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/NeckPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/NeckPitch.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/NeckPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/NeckPitch.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -79,7 +82,8 @@
     <inertial>
       <origin xyz="0.00137 0.00027 -0.00641" rpy="0 0 0"/>
       <mass value="0.13981"/>
-      <inertia ixx="3.89601e-05" ixy="-3.814e-08" ixz="-2.29622e-06" iyy="7.254653e-05" iyz="-6.46e-09" izz="5.376501e-05" />
+      <inertia ixx="3.89601e-05" ixy="-3.814e-08" ixz="-2.29622e-06" iyy="7.254653e-05" iyz="-6.46e-09" 
+izz="5.376501e-05" />
     </inertial>
   </link>
 
@@ -87,18 +91,19 @@
     <inertial>
       <origin xyz="0.01617 0.00168 0.0757" rpy="0 0 0"/>
       <mass value="1.41282"/>
-      <inertia ixx="0.01490874108" ixy="-5.142093e-05" ixz="-0.00068489344" iyy="0.01731891079" iyz="-0.00019152738" izz="0.00735474589" />
+      <inertia ixx="0.01490874108" ixy="-5.142093e-05" ixz="-0.00068489344" iyy="0.01731891079" iyz="-0.00019152738" 
+izz="0.00735474589" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/HeadRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/HeadRoll.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/HeadRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/HeadRoll.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -107,7 +112,8 @@
     <inertial>
       <origin xyz="0.00149 -0.03299 0.00018" rpy="0 0 0"/>
       <mass value="0.69402"/>
-      <inertia ixx="0.00201004114" ixy="2.37595e-06" ixz="-2.16793e-06" iyy="0.00057062588" iyz="8.27832e-06" izz="0.00194067879" />
+      <inertia ixx="0.00201004114" ixy="2.37595e-06" ixz="-2.16793e-06" iyy="0.00057062588" iyz="8.27832e-06" 
+izz="0.00194067879" />
     </inertial>
   </link>
 
@@ -115,18 +121,19 @@
     <inertial>
       <origin xyz="0.09367 0.01373 0.00103" rpy="0 0 0"/>
       <mass value="0.57151"/>
-      <inertia ixx="0.00074281758" ixy="-0.00061767526" ixz="-7.28438e-05" iyy="0.00650202304" iyz="-1.251569e-05" izz="0.00664433886" />
+      <inertia ixx="0.00074281758" ixy="-0.00061767526" ixz="-7.28438e-05" iyy="0.00650202304" iyz="-1.251569e-05" 
+izz="0.00664433886" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LShoulderYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/LShoulderYaw.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LShoulderYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/LShoulderYaw.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -135,7 +142,8 @@
     <inertial>
       <origin xyz="-0.02231 -0.0024 0" rpy="0 0 0"/>
       <mass value="0.39848"/>
-      <inertia ixx="0.00017900324" ixy="-2.25555e-06" ixz="1.376e-08" iyy="0.00080432225" iyz="8.007e-08" izz="0.00077956048" />
+      <inertia ixx="0.00017900324" ixy="-2.25555e-06" ixz="1.376e-08" iyy="0.00080432225" iyz="8.007e-08" 
+izz="0.00077956048" />
     </inertial>
   </link>
 
@@ -143,18 +151,19 @@
     <inertial>
       <origin xyz="0.06738 0.01043 -0.00031" rpy="0 0 0"/>
       <mass value="0.31265"/>
-      <inertia ixx="0.00037509574" ixy="-0.00022528338" ixz="2.58073e-06" iyy="0.00209727597" iyz="2.74613e-06" izz="0.00211064798" />
+      <inertia ixx="0.00037509574" ixy="-0.00022528338" ixz="2.58073e-06" iyy="0.00209727597" iyz="2.74613e-06" 
+izz="0.00211064798" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LElbowYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/LElbowYaw.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LElbowYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/LElbowYaw.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -163,18 +172,19 @@
     <inertial>
       <origin xyz="-0.0593 -5e-05 -0.00069" rpy="0 0 0"/>
       <mass value="0.17563"/>
-      <inertia ixx="6.721454e-05" ixy="-6.373e-07" ixz="-1.358095e-05" iyy="0.00085119568" iyz="-2.443e-08" izz="0.00084034753" />
+      <inertia ixx="6.721454e-05" ixy="-6.373e-07" ixz="-1.358095e-05" iyy="0.00085119568" iyz="-2.443e-08" 
+izz="0.00084034753" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LWristRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/LWristRoll.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LWristRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/LWristRoll.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -183,18 +193,19 @@
     <inertial>
       <origin xyz="-0.00746 -0.00016 -0.00022" rpy="0 0 0"/>
       <mass value="0.07595"/>
-      <inertia ixx="1.454017e-05" ixy="-4.157e-08" ixz="7.674e-08" iyy="3.919069e-05" iyz="3.08e-09" izz="3.817871e-05" />
+      <inertia ixx="1.454017e-05" ixy="-4.157e-08" ixz="7.674e-08" iyy="3.919069e-05" iyz="3.08e-09" izz="3.817871e-05" 
+/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/WristYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/WristYaw.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/WristYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/WristYaw.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -203,18 +214,19 @@
     <inertial>
       <origin xyz="0.06987 -0.00381 -0.00165" rpy="0 0 0"/>
       <mass value="0.16569"/>
-      <inertia ixx="0.00011252888" ixy="4.725831e-05" ixz="1.704036e-05" iyy="0.00107981778" iyz="-1.54761e-05" izz="0.00115367043" />
+      <inertia ixx="0.00011252888" ixy="4.725831e-05" ixz="1.704036e-05" iyy="0.00107981778" iyz="-1.54761e-05" 
+izz="0.00115367043" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LWristPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LWristPitch.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LWristPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LWristPitch.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -223,7 +235,8 @@
     <inertial>
       <origin xyz="0.00149 0.03299 -0.00018" rpy="0 0 0"/>
       <mass value="0.69402"/>
-      <inertia ixx="0.00201004114" ixy="-2.37595e-06" ixz="2.16793e-06" iyy="0.00057062588" iyz="8.27832e-06" izz="0.00194067879" />
+      <inertia ixx="0.00201004114" ixy="-2.37595e-06" ixz="2.16793e-06" iyy="0.00057062588" iyz="8.27832e-06" 
+izz="0.00194067879" />
     </inertial>
   </link>
 
@@ -231,18 +244,19 @@
     <inertial>
       <origin xyz="0.0937 -0.01373 -0.00069" rpy="0 0 0"/>
       <mass value="0.57071"/>
-      <inertia ixx="0.00074235595" ixy="0.00061720176" ixz="5.985213e-06" iyy="0.00649988502" iyz="-1.074174e-06" izz="0.000664209089" />
+      <inertia ixx="0.00074235595" ixy="0.00061720176" ixz="5.985213e-06" iyy="0.00649988502" iyz="-1.074174e-06" 
+izz="0.000664209089" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RShoulderYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/RShoulderYaw.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RShoulderYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/RShoulderYaw.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -251,7 +265,8 @@
     <inertial>
       <origin xyz="-0.02231 -0.0024 0" rpy="0 0 0"/>
       <mass value="0.39848"/>
-      <inertia ixx="0.00017900324" ixy="-2.25555e-06" ixz="1.376e-08" iyy="0.00080432225" iyz="8.007e-08" izz="0.00077956048" />
+      <inertia ixx="0.00017900324" ixy="-2.25555e-06" ixz="1.376e-08" iyy="0.00080432225" iyz="8.007e-08" 
+izz="0.00077956048" />
     </inertial>
   </link>
 
@@ -259,18 +274,19 @@
     <inertial>
       <origin xyz="0.06753 -0.00889 0.00022" rpy="0 0 0"/>
       <mass value="0.31403"/>
-      <inertia ixx="0.00036672778" ixy="0.00018563123" ixz="-5.37905e-07" iyy="0.00211103842" iyz="3.1932e-07" izz="0.000211493035" />
+      <inertia ixx="0.00036672778" ixy="0.00018563123" ixz="-5.37905e-07" iyy="0.00211103842" iyz="3.1932e-07" 
+izz="0.000211493035" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RElbowYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/RElbowYaw.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RElbowYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/RElbowYaw.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -279,18 +295,19 @@
     <inertial>
       <origin xyz="-0.0593 -5e-05 -0.00069" rpy="0 0 0"/>
       <mass value="0.17563"/>
-      <inertia ixx="6.721454e-05" ixy="-6.373e-07" ixz="-1.358095e-05" iyy="0.00085119568" iyz="-2.443e-08" izz="0.00084034753" />
+      <inertia ixx="6.721454e-05" ixy="-6.373e-07" ixz="-1.358095e-05" iyy="0.00085119568" iyz="-2.443e-08" 
+izz="0.00084034753" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RWristRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/RWristRoll.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RWristRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/RWristRoll.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -299,18 +316,19 @@
     <inertial>
       <origin xyz="-0.00746 -0.00016 -0.00022" rpy="0 0 0"/>
       <mass value="0.07595"/>
-      <inertia ixx="1.454017e-05" ixy="-4.157e-08" ixz="7.674e-08" iyy="3.919069e-05" iyz="3.08e-09" izz="3.817871e-05" />
+      <inertia ixx="1.454017e-05" ixy="-4.157e-08" ixz="7.674e-08" iyy="3.919069e-05" iyz="3.08e-09" izz="3.817871e-05" 
+/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/WristYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/WristYaw.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/WristYaw.dae" />
+	<mesh filename="package://romeo_description/meshes/WristYaw.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -324,13 +342,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RWristPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RWristPitch.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RWristPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RWristPitch.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -360,13 +378,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LHipPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LHipPitch.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LHipPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LHipPitch.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -380,13 +398,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LKneePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LKneePitch.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LKneePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LKneePitch.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -408,13 +426,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LAnkleRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/LAnkleRoll.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LAnkleRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/LAnkleRoll.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -429,13 +447,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LToePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LToePitch.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LToePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/LToePitch.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -465,13 +483,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RHipPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RHipPitch.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RHipPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RHipPitch.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -485,13 +503,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RKneePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RKneePitch.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RKneePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RKneePitch.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -513,13 +531,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RAnkleRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/RAnkleRoll.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RAnkleRoll.dae" />
+	<mesh filename="package://romeo_description/meshes/RAnkleRoll.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -534,13 +552,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RToePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RToePitch.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RToePitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RToePitch.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -554,13 +572,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -574,13 +592,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -594,13 +612,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -614,13 +632,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -634,13 +652,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -654,13 +672,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -674,13 +692,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -694,13 +712,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -714,13 +732,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -734,13 +752,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LThumb.dae" />
+	<mesh filename="package://romeo_description/meshes/LThumb.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/LThumb.dae" />
+	<mesh filename="package://romeo_description/meshes/LThumb.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -754,13 +772,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -774,13 +792,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -794,13 +812,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -814,13 +832,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -834,13 +852,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -854,13 +872,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -874,13 +892,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -894,13 +912,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -914,13 +932,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -934,13 +952,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -954,13 +972,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -974,13 +992,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RThumb.dae" />
+	<mesh filename="package://romeo_description/meshes/RThumb.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RThumb.dae" />
+	<mesh filename="package://romeo_description/meshes/RThumb.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -994,13 +1012,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/Phalax.dae" />
+	<mesh filename="package://romeo_description/meshes/Phalax.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
@@ -1014,13 +1032,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" />
+	<mesh filename="package://romeo_description/meshes/PhalaxEnd.dae" scale="100 100 100"/>
       </geometry>
     </collision>
   </link>
