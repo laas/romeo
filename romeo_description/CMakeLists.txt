@@ -11,8 +11,7 @@ set(PROJECT_URL github.com/laas/romeo)
 include(cmake/base.cmake)
 setup_project()
 # Install launch file
-install(FILES ${CMAKE_SOURCE_DIR}/launch/
-  ${CMAKE_SOURCE_DIR}/launch/display.launch
+install(FILES ${CMAKE_SOURCE_DIR}/launch/display.launch
   ${CMAKE_SOURCE_DIR}/launch/romeo.rviz
   ${CMAKE_SOURCE_DIR}/launch/sot_display.launch
   DESTINATION ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}/launch
