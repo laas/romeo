@@ -2,7 +2,7 @@
 <!--
    Aldebaran Robotics Romeo URDF model
 
-   FIXME: fill missing data: sole, gripper and sensors
+   FIXME: fill missing data: sensors
   -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="romeo">
   <link name="base_link"/>
@@ -887,5 +887,29 @@
     <child link="CameraRight"/>
   </joint>
   <link name="CameraRight"/>
+
+
+	<!--
+		 Humanoid standard frames
+
+		 This section defines anchor joint renaming to respect the
+		 REP 120 (http://www.ros.org/reps/rep-0120.html):
+		 Coordinate Frames for Humanoids Robots
+		-->
+
+	<!-- Humanoid standard frames: wrists and hands -->
+	<joint name="l_gripper_joint" type="fixed">
+		<parent link="l_wrist"/>
+		<child link="l_gripper"/>
+		<origin xyz="0.09 0 -0.02" rpy="-1.57079633 0 0"/>
+	</joint>
+	<link name="l_gripper"/>
+
+	<joint name="r_gripper_joint" type="fixed">
+		<parent link="r_wrist"/>
+		<child link="r_gripper"/>
+		<origin xyz="0.09 0 -0.02" rpy="-1.57079633 0 0"/>
+	</joint>
+	<link name="r_gripper"/>
 
 </robot>
