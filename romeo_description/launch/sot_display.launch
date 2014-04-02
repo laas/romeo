@@ -7,6 +7,9 @@
 	<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" >
 		<env name="ROS_NAMESPACE" value="/dynamic_graph"/>
 	</node>
+	<node name="robot_pose_publisher" pkg="dynamic_graph_bridge" type="robot_pose_publisher" >
+		<env name="ROS_NAMESPACE" value="/dynamic_graph"/>
+	</node>
 	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find romeo_description)/launch/romeo.rviz" />
 </launch>
 
