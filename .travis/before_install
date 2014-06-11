@@ -1,0 +1,187 @@
+#!/bin/bash
+
+rm -rf "$build_dir" "$install_dir"
+
+. .travis/common.sh
+
+# Set debug mode
+set -x
+set -v
+
+# Print Git version
+git --version
+
+# Setup Git identity.
+git config --global user.name "Thomas Moulard (Travis Automatic Builds)"
+git config --global user.email "thomas.moulard+travis@gmail.com"
+
+# Retrive the submodules.
+git submodule update --quiet --init --recursive
+
+# Speed up apt
+sudo sh -c "echo \"force-unsafe-io\" > /etc/dpkg/dpkg.cfg.d/02apt-speedup"
+
+# Update the apt local cache.
+sudo apt-get update -qq
+
+# Fetch tags to compute the distance between the last release tag
+# and us.
+git fetch --quiet --tags
+
+# Shortcuts.
+git_clone="git clone --quiet --recursive"
+
+# Setup environment variables.
+export LD_LIBRARY_PATH="$install_dir/lib:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="$install_dir/lib/`dpkg-architecture -qDEB_BUILD_MULTIARCH`:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="$install_dir/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PKG_CONFIG_PATH="$install_dir/lib/`dpkg-architecture -qDEB_BUILD_MULTIARCH`/pkgconfig:$PKG_CONFIG_PATH"
+
+# Display environment
+echo "Environment:"
+env
+
+# build_git_dependency
+# --------------------
+#
+# Build a dependency directly from the Git development tree.
+build_git_dependency()
+{
+    echo "--> Compiling $1"
+    roscd $1
+    # It is a does the repository exist?
+    if [ $? -eq 0 ]; then
+      if [ -e manifest.xml ]; then
+        catkin_make --pkg $1
+        catkin_lint $1
+      elif [ -e packages.xml ]; then
+        rosmake $1
+      fi
+    else
+      mkdir -p "$build_dir/$1"
+      cd "$build_dir"
+      $git_clone "git://github.com/$1" "$1"
+      cd "$build_dir/$1"
+      make install || make
+    fi
+}
+
+# Check if we are in a debian branch...
+if [ -d debian ]; then
+    if `test x${DIST} = x`; then
+	echo "distribution is not set, skipping this build"
+	exit 0
+    fi
+    echo "Target distribution: ${DIST}"
+
+    # If we are, we install Debian package development tools and
+    # create a sid pbuilder. Package dependencies will be installed
+    # automatically.
+    sudo apt-get install -qq			\
+	debootstrap devscripts			\
+	git-buildpackage debian-archive-keyring \
+	pkg-kde-tools dput eatmydata ccache
+
+    # Fix ccache use in pbuilder
+    sudo addgroup --system --gid 1234 ccache
+    sudo adduser --quiet --system --uid 1234 --ingroup ccache \
+	--home /var/cache/pbuilder --no-create-home pbuilder
+    sudo mkdir -p /var/cache/pbuilder/ccache
+    sudo chown -R pbuilder:ccache /var/cache/pbuilder/ccache
+    sudo chmod -R g+ws /var/cache/pbuilder/ccache
+
+    # Remove previous sandbox.
+    sudo rm -rf /var/cache/pbuilder/base-${DIST}.cow || true
+
+    # Create a pbuilder sandbox.
+    cp -f $root_dir/.travis/pbuilderrc $HOME/.pbuilderrc
+    sed -i "s|@DIST@|${DIST}|g" $HOME/.pbuilderrc
+
+    git-pbuilder create
+
+    # Speed up pbuilder.
+    echo "echo \"force-unsafe-io\" > /etc/dpkg/dpkg.cfg.d/02apt-speedup" | \
+	git-pbuilder login --save-after-exec
+
+    # Add additional PPAs
+    for ppa in ${DEBIAN_PPA}; do
+	echo "apt-add-repository ppa:${ppa}" | \
+	    git-pbuilder login --save-after-exec
+    done
+
+    # Retrieve PPA package list.
+    git-pbuilder update
+
+    # ccache is not necessary in our case and may cause permission
+    # issues.
+    echo "apt-get -y remove ccache" |			\
+	git-pbuilder login --save-after-exec
+else
+    if [ ! x${DIST} = x ]; then
+	echo "skipping this build"
+	exit 0
+    fi
+    # Add additional PPAs
+    for ppa in ${MASTER_PPA}; do
+	sudo apt-add-repository ppa:${ppa}
+    done
+
+    # ...otherwise we install the dependencies explicitly.
+    sudo apt-get install -qq curl cppcheck ${APT_DEPENDENCIES}
+    sudo pip install cpp-coveralls --use-mirrors
+
+    # ...if a coverity id is set, get the tools.
+    if `! test x${COVERITY_TOKEN} = x`; then
+	cd $build_dir
+        PROJECT_NAME=`basename $root_dir`
+        # Get appropriate download link
+        case `uname -m` in
+            i?86)
+                BITS=32
+                ;;
+            amd64|x86_64)
+                BITS=64
+                ;;
+        esac
+        coverity_download=https://scan.coverity.com/download/linux-${BITS}
+
+        # Download the file (token and project name required)
+        wget -O coverity_tool.tgz $coverity_download \
+            --post-data "token=${COVERITY_TOKEN}&project=${PROJECT_NAME}"
+	tar xzf coverity_tool.tgz
+        coverity_dir=`find $build_dir -type d -name 'cov-analysis*'`
+	export PATH="$build_dir/$coverity_dir/bin:$PATH"
+    else
+	echo "coverity support is disabled in this build"
+    fi
+
+    # retrieve
+    if `! test x${NSIQCPPSTYLE_FILEFILTERPATH} = x`; then
+	cd $build_dir
+	wget --quiet http://dev.naver.com/frs/download.php/1860/nsiqcppstyle_0.2.2.12.tar.gz
+	tar xzf nsiqcppstyle_0.2.2.12.tar.gz
+	export PATH="$build_dir/nsiqcppstyle:$PATH"
+    else
+	echo "nsiqcppstyle support is disabled in this build"
+    fi
+
+    # and we build directly dependencies from the Git repository
+    if [ ! "${ROS_GIT_DEPENDENCIES}" -eq "" ]; then
+      cd ~/src
+      wstool init
+      for package in ${ROS_GIT_DEPENDENCIES}; do
+        rep="${package##*/}"
+        wstool set $rep --git https://github.com/${package}
+      done
+    fi
+
+    cd $root_dir
+    for package in ${GIT_DEPENDENCIES}; do
+	build_git_dependency "$package"
+    done
+
+fi
+
+# End debug mode
+set +v
+set +x

@@ -1,0 +1,16 @@
+#sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -s -c` main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
+wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install ros-hydro-ros-base
+
+source /opt/ros/*/setup.bash
+
+# workspace
+CATKIN_WORKSPACE=~/
+mkdir -p $CATKIN_WORKSPACE/src
+cd $CATKIN_WORKSPACE
+catkin_make
+
+source $CATKIN_WORKSPACE/devel/setup.bash
+
