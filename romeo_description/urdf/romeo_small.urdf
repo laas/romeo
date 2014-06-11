@@ -9,9 +9,9 @@
 
   <link name="body">
     <inertial>
-      <origin xyz="0.00932 0.0005 -0.2119" rpy="0 0 0"/>
+      <origin xyz="0.00932 0 -0.2119" rpy="0 0 0"/>
       <mass value="4.16277"/>
-      <inertia ixx="0.24187936706" ixy="-6.889635e-05" ixz="0.00282915469" iyy="0.23816771319" iyz="0.00030625215" izz="0.02147385599" />
+      <inertia ixx="0.241879" ixy="-6.88963e-05" ixz="0.00282915" iyy="0.238168" iyz="0.000306252" izz="0.0214739"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -29,9 +29,9 @@
 
   <link name="torso">
     <inertial>
-      <origin xyz="0.0023 0.00038 -0.04854" rpy="0 0 0"/>
+      <origin xyz="0.0023 0 -0.04854" rpy="0 0 0"/>
       <mass value="9.9216"/>
-      <inertia ixx="0.12933235299" ixy="-0.00035965149" ixz="0.00283888003" iyy="0.12683108985" iyz="-0.00200842624" izz="0.11062739082" />
+      <inertia ixx="0.129332" ixy="-0.000359651" ixz="0.00283888" iyy="0.126831" iyz="-0.00200843" izz="0.110627"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -49,17 +49,17 @@
 
   <link name="NeckYawLink">
     <inertial>
-      <origin xyz="0 -0.00183 -0.03074" rpy="0 0 0"/>
+      <origin xyz="0 0 -0.03074" rpy="0 0 0"/>
       <mass value="0.51016"/>
-      <inertia ixx="0.00122158912" ixy="-8.014e-08" ixz="1.145e-08" iyy="0.00124607826" iyz="-1.84095e-06" izz="0.00018796505" />
+      <inertia ixx="0.00122159" ixy="-8.014e-08" ixz="1.145e-08" iyy="0.00124608" iyz="-1.84095e-06" izz="0.000187965"/>
     </inertial>
   </link>
 
   <link name="NeckPitchLink">
     <inertial>
-      <origin xyz="-0.00472 -0.00054 0.04432" rpy="0 0 0"/>
+      <origin xyz="-0.00472 0 0.04432" rpy="0 0 0"/>
       <mass value="0.23875"/>
-      <inertia ixx="0.0008660225" ixy="-1.57263e-06" ixz="6.138255e-05" iyy="0.00081828666" iyz="9.69515e-06" izz="0.00023891895" />
+      <inertia ixx="0.000866022" ixy="-1.57263e-06" ixz="6.13825e-05" iyy="0.000818287" iyz="9.69515e-06" izz="0.000238919"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -77,17 +77,17 @@
 
   <link name="HeadPitchLink">
     <inertial>
-      <origin xyz="0.00137 0.00027 -0.00641" rpy="0 0 0"/>
+      <origin xyz="0.00137 0 -0.00641" rpy="0 0 0"/>
       <mass value="0.13981"/>
-      <inertia ixx="3.89601e-05" ixy="-3.814e-08" ixz="-2.29622e-06" iyy="7.254653e-05" iyz="-6.46e-09" izz="5.376501e-05" />
+      <inertia ixx="3.89601e-05" ixy="-3.814e-08" ixz="-2.29622e-06" iyy="7.25465e-05" iyz="-6.46e-09" izz="5.3765e-05"/>
     </inertial>
   </link>
 
   <link name="HeadRollLink">
     <inertial>
-      <origin xyz="0.01617 0.00168 0.0757" rpy="0 0 0"/>
+      <origin xyz="0.01617 0 0.00757" rpy="0 0 0"/>
       <mass value="1.41282"/>
-      <inertia ixx="0.01490874108" ixy="-5.142093e-05" ixz="-0.00068489344" iyy="0.01731891079" iyz="-0.00019152738" izz="0.00735474589" />
+      <inertia ixx="0.0149087" ixy="-5.14209e-05" ixz="-0.000684893" iyy="0.0173189" iyz="-0.000191527" izz="0.00735475"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -107,7 +107,7 @@
     <inertial>
       <origin xyz="0.00149 -0.03299 0.00018" rpy="0 0 0"/>
       <mass value="0.69402"/>
-      <inertia ixx="0.00201004114" ixy="2.37595e-06" ixz="-2.16793e-06" iyy="0.00057062588" iyz="8.27832e-06" izz="0.00194067879" />
+      <inertia ixx="0.00201004" ixy="2.37595e-06" ixz="-2.16793e-06" iyy="0.000570626" iyz="8.27832e-06" izz="0.00194068"/>
     </inertial>
   </link>
 
@@ -115,7 +115,7 @@
     <inertial>
       <origin xyz="0.09367 0.01373 0.00103" rpy="0 0 0"/>
       <mass value="0.57151"/>
-      <inertia ixx="0.00074281758" ixy="-0.00061767526" ixz="-7.28438e-05" iyy="0.00650202304" iyz="-1.251569e-05" izz="0.00664433886" />
+      <inertia ixx="0.000742818" ixy="-0.000617675" ixz="-7.28438e-05" iyy="0.00650202" iyz="-1.25157e-05" izz="0.00664434"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -135,7 +135,7 @@
     <inertial>
       <origin xyz="-0.02231 -0.0024 0" rpy="0 0 0"/>
       <mass value="0.39848"/>
-      <inertia ixx="0.00017900324" ixy="-2.25555e-06" ixz="1.376e-08" iyy="0.00080432225" iyz="8.007e-08" izz="0.00077956048" />
+      <inertia ixx="0.000179003" ixy="-2.25555e-06" ixz="1.376e-08" iyy="0.000804322" iyz="8.007e-08" izz="0.00077956"/>
     </inertial>
   </link>
 
@@ -143,7 +143,7 @@
     <inertial>
       <origin xyz="0.06738 0.01043 -0.00031" rpy="0 0 0"/>
       <mass value="0.31265"/>
-      <inertia ixx="0.00037509574" ixy="-0.00022528338" ixz="2.58073e-06" iyy="0.00209727597" iyz="2.74613e-06" izz="0.00211064798" />
+      <inertia ixx="0.000375096" ixy="-0.000225283" ixz="2.58073e-06" iyy="0.00209728" iyz="2.74613e-06" izz="0.00211065"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -163,7 +163,7 @@
     <inertial>
       <origin xyz="-0.0593 -5e-05 -0.00069" rpy="0 0 0"/>
       <mass value="0.17563"/>
-      <inertia ixx="6.721454e-05" ixy="-6.373e-07" ixz="-1.358095e-05" iyy="0.00085119568" iyz="-2.443e-08" izz="0.00084034753" />
+      <inertia ixx="6.72145e-05" ixy="-6.373e-07" ixz="-1.35809e-05" iyy="0.000851196" iyz="-2.443e-08" izz="0.000840348"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -183,7 +183,7 @@
     <inertial>
       <origin xyz="-0.00746 -0.00016 -0.00022" rpy="0 0 0"/>
       <mass value="0.07595"/>
-      <inertia ixx="1.454017e-05" ixy="-4.157e-08" ixz="7.674e-08" iyy="3.919069e-05" iyz="3.08e-09" izz="3.817871e-05" />
+      <inertia ixx="1.45402e-05" ixy="-4.157e-08" ixz="7.674e-08" iyy="3.91907e-05" iyz="3.08e-09" izz="3.81787e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -203,7 +203,7 @@
     <inertial>
       <origin xyz="0.06987 -0.00381 -0.00165" rpy="0 0 0"/>
       <mass value="0.16569"/>
-      <inertia ixx="0.00011252888" ixy="4.725831e-05" ixz="1.704036e-05" iyy="0.00107981778" iyz="-1.54761e-05" izz="0.00115367043" />
+      <inertia ixx="0.000112529" ixy="4.72583e-05" ixz="1.70404e-05" iyy="0.00107982" iyz="-1.54761e-05" izz="0.00115367"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -221,17 +221,17 @@
 
   <link name="RShoulderPitchLink">
     <inertial>
-      <origin xyz="0.00149 0.03299 -0.00018" rpy="0 0 0"/>
+      <origin xyz="0.00149 0.03299 0.00018" rpy="0 0 0"/>
       <mass value="0.69402"/>
-      <inertia ixx="0.00201004114" ixy="-2.37595e-06" ixz="2.16793e-06" iyy="0.00057062588" iyz="8.27832e-06" izz="0.00194067879" />
+      <inertia ixx="0.00201004" ixy="-2.37595e-06" ixz="2.16793e-06" iyy="0.000570626" iyz="8.27832e-06" izz="0.00194068"/>
     </inertial>
   </link>
 
   <link name="RShoulderYawLink">
     <inertial>
-      <origin xyz="0.0937 -0.01373 -0.00069" rpy="0 0 0"/>
-      <mass value="0.57071"/>
-      <inertia ixx="0.00074235595" ixy="0.00061720176" ixz="5.985213e-06" iyy="0.00649988502" iyz="-1.074174e-06" izz="0.000664209089" />
+      <origin xyz="0.09367 -0.01373 0.00103" rpy="0 0 0"/>
+      <mass value="0.57151"/>
+      <inertia ixx="0.000742356" ixy="0.000617202" ixz="5.98521e-06" iyy="0.00649989" iyz="-1.07417e-06" izz="0.000664209"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -249,17 +249,17 @@
 
   <link name="RElbowRollLink">
     <inertial>
-      <origin xyz="-0.02231 -0.0024 0" rpy="0 0 0"/>
+      <origin xyz="-0.02231 0.0024 0" rpy="0 0 0"/>
       <mass value="0.39848"/>
-      <inertia ixx="0.00017900324" ixy="-2.25555e-06" ixz="1.376e-08" iyy="0.00080432225" iyz="8.007e-08" izz="0.00077956048" />
+      <inertia ixx="0.000179003" ixy="-2.25555e-06" ixz="1.376e-08" iyy="0.000804322" iyz="8.007e-08" izz="0.00077956"/>
     </inertial>
   </link>
 
   <link name="RElbowYawLink">
     <inertial>
-      <origin xyz="0.06753 -0.00889 0.00022" rpy="0 0 0"/>
-      <mass value="0.31403"/>
-      <inertia ixx="0.00036672778" ixy="0.00018563123" ixz="-5.37905e-07" iyy="0.00211103842" iyz="3.1932e-07" izz="0.000211493035" />
+      <origin xyz="0.06738 -0.01043 -0.00031" rpy="0 0 0"/>
+      <mass value="0.31265"/>
+      <inertia ixx="0.000366728" ixy="0.000185631" ixz="-5.37905e-07" iyy="0.00211104" iyz="3.1932e-07" izz="0.000211493"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -277,9 +277,9 @@
 
   <link name="RWristRollLink">
     <inertial>
-      <origin xyz="-0.0593 -5e-05 -0.00069" rpy="0 0 0"/>
+      <origin xyz="-0.0593 5e-05 -0.00069" rpy="0 0 0"/>
       <mass value="0.17563"/>
-      <inertia ixx="6.721454e-05" ixy="-6.373e-07" ixz="-1.358095e-05" iyy="0.00085119568" iyz="-2.443e-08" izz="0.00084034753" />
+      <inertia ixx="6.72145e-05" ixy="-6.373e-07" ixz="-1.35809e-05" iyy="0.000851196" iyz="-2.443e-08" izz="0.000840348"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -297,9 +297,9 @@
 
   <link name="RWristYawLink">
     <inertial>
-      <origin xyz="-0.00746 -0.00016 -0.00022" rpy="0 0 0"/>
+      <origin xyz="-0.00746 0.00016 -0.00022" rpy="0 0 0"/>
       <mass value="0.07595"/>
-      <inertia ixx="1.454017e-05" ixy="-4.157e-08" ixz="7.674e-08" iyy="3.919069e-05" iyz="3.08e-09" izz="3.817871e-05" />
+      <inertia ixx="1.45402e-05" ixy="-4.157e-08" ixz="7.674e-08" iyy="3.91907e-05" iyz="3.08e-09" izz="3.81787e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -319,7 +319,7 @@
     <inertial>
       <origin xyz="0.06987 0.00381 -0.00165" rpy="0 0 0"/>
       <mass value="0.16569"/>
-      <inertia ixx="0.00011252888" ixy="0" ixz="0" iyy="0.00107981778" iyz="0" izz="0.00115367043" />
+      <inertia ixx="0.000112529" ixy="0" ixz="0" iyy="0.00107982" iyz="0" izz="0.00115367"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -339,7 +339,7 @@
     <inertial>
       <origin xyz="-0.00871 -0.00022 0.06319" rpy="0 0 0"/>
       <mass value="0.49477"/>
-      <inertia ixx="0.00303667904" ixy="0" ixz="0" iyy="0.0034799778" iyz="0" izz="0.00062277265" />
+      <inertia ixx="0.00303668" ixy="-0" ixz="-0" iyy="0.00347998" iyz="-0" izz="0.000622773"/>
     </inertial>
   </link>
 
@@ -347,7 +347,7 @@
     <inertial>
       <origin xyz="0.00293 -0.00027 0.00011" rpy="0 0 0"/>
       <mass value="0.6607"/>
-      <inertia ixx="0.00089862024" ixy="0" ixz="0" iyy="0.00050955901" iyz="0" izz="0.00093539188" />
+      <inertia ixx="0.00089862" ixy="0" ixz="0" iyy="0.000509559" iyz="0" izz="0.000935392"/>
     </inertial>
   </link>
 
@@ -355,7 +355,7 @@
     <inertial>
       <origin xyz="-0.00971 0.00135 -0.15083" rpy="0 0 0"/>
       <mass value="4.33935"/>
-      <inertia ixx="0.13289504951" ixy="0" ixz="0" iyy="0.13397739558" iyz="0" izz="0.01216872585" />
+      <inertia ixx="0.132895" ixy="0" ixz="0" iyy="0.133977" iyz="0" izz="0.0121687"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -375,7 +375,7 @@
     <inertial>
       <origin xyz="-0.00532 -0.00075 -0.12258" rpy="0 0 0"/>
       <mass value="2.61063"/>
-      <inertia ixx="0.05491303061" ixy="0" ixz="0" iyy="0.05496634755" iyz="0" izz="0.00398481696" />
+      <inertia ixx="0.054913" ixy="0" ixz="0" iyy="0.0549663" iyz="0" izz="0.00398482"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -395,15 +395,15 @@
     <inertial>
       <origin xyz="0.00059 0.00051 0.00038" rpy="0 0 0"/>
       <mass value="0.5008"/>
-      <inertia ixx="0.00042995195" ixy="0" ixz="0" iyy="0.00028145145" iyz="0" izz="0.00052766479" />
+      <inertia ixx="0.000429952" ixy="0" ixz="0" iyy="0.000281451" iyz="0" izz="0.000527665"/>
     </inertial>
   </link>
 
   <link name="l_ankle">
     <inertial>
-      <origin xyz="0.02618 0.00259 -0.03683" rpy="0 0 0"/>
-      <mass value="0.64224"/>
-      <inertia ixx="0.00139908277" ixy="0" ixz="0" iyy="0.00349259103" iyz="0" izz="0.00266359477" />
+      <origin xyz="0.01872  0.00223  -0.03215" rpy="0 0 0"/>
+      <mass value="0.74347"/>
+      <inertia ixx="0.003507" ixy="0" ixz="0" iyy="0.016213" iyz="0" izz="0.014735"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -422,9 +422,9 @@
 
   <link name="l_toe">
     <inertial>
-      <origin xyz="0.01636 -0.00167 -0.00812" rpy="0 0 0"/>
-      <mass value="0.2889"/>
-      <inertia ixx="0.00025411726" ixy="0" ixz="0" iyy="0.00029543601" iyz="0" izz="0.0004436638" />
+      <origin xyz="0.02067  -0.00198  -0.00964" rpy="0 0 0"/>
+      <mass value="0.24032"/>
+      <inertia ixx="0.000232177" ixy="0.000026659" ixz="-0.000059566" iyy="0.000296598" iyz="-0.000002851" izz="0.000427637" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -444,15 +444,15 @@
     <inertial>
       <origin xyz="-0.00871 0.00022 0.06319" rpy="0 0 0"/>
       <mass value="0.49477"/>
-      <inertia ixx="0.00303667904" ixy="0" ixz="0" iyy="0.0034799778" iyz="0" izz="0.00062277265" />
+      <inertia ixx="0.00303668" ixy="0" ixz="0" iyy="0.00347998" iyz="0" izz="0.000622773"/>
     </inertial>
   </link>
 
   <link name="RHipRollLink">
     <inertial>
-      <origin xyz="0.00293 -0.00027 0.00011" rpy="0 0 0"/>
+      <origin xyz="0.00293 0.00027 0.00011" rpy="0 0 0"/>
       <mass value="0.6607"/>
-      <inertia ixx="0.00089862024" ixy="0" ixz="0" iyy="0.00050955901" iyz="0" izz="0.00093539188" />
+      <inertia ixx="0.00089862" ixy="0" ixz="0" iyy="0.000509559" iyz="0" izz="0.000935392"/>
     </inertial>
   </link>
 
@@ -460,12 +460,12 @@
     <inertial>
       <origin xyz="-0.00971 -0.00135 -0.15083" rpy="0 0 0"/>
       <mass value="4.33935"/>
-      <inertia ixx="0.13289504951" ixy="0" ixz="0" iyy="0.13397739558" iyz="0" izz="0.01216872585" />
+      <inertia ixx="0.132895" ixy="0" ixz="0" iyy="0.133977" iyz="0" izz="0.0121687"/>
     </inertial>
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-	<mesh filename="package://romeo_description/meshes/RHipPitch.dae" />
+	<mesh filename="package://romeo_description/meshes/RHipPitch.dae"/>
       </geometry>
     </visual>
     <collision>
@@ -480,7 +480,7 @@
     <inertial>
       <origin xyz="-0.00532 0.00075 -0.12258" rpy="0 0 0"/>
       <mass value="2.61063"/>
-      <inertia ixx="0.05491303061" ixy="0" ixz="0" iyy="0.05496634755" iyz="0" izz="0.00398481696" />
+      <inertia ixx="0.054913" ixy="0" ixz="0" iyy="0.0549663" iyz="0" izz="0.00398482"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -500,15 +500,15 @@
     <inertial>
       <origin xyz="0.00059 -0.00051 0.00038" rpy="0 0 0"/>
       <mass value="0.5008"/>
-      <inertia ixx="0.00042995195" ixy="0" ixz="0" iyy="0.00028145145" iyz="0" izz="0.00052766479" />
+      <inertia ixx="0.000429952" ixy="0" ixz="0" iyy="0.000281451" iyz="0" izz="0.000527665"/>
     </inertial>
   </link>
 
   <link name="r_ankle">
     <inertial>
-      <origin xyz="0.02618 -0.00259 -0.03683" rpy="0 0 0"/>
-      <mass value="0.64224"/>
-      <inertia ixx="0.00139908277" ixy="0" ixz="0" iyy="0.00349259103" iyz="0" izz="0.00266359477" />
+      <origin xyz="0.01872  -0.00223  -0.03215" rpy="0 0 0"/>
+      <mass value="0.74347"/>
+      <inertia ixx="0.003507" ixy="0" ixz="0" iyy="0.016213" iyz="0" izz="0.014735"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -527,9 +527,9 @@
 
   <link name="r_toe">
     <inertial>
-      <origin xyz="0.01636 0.00167 -0.00812" rpy="0 0 0"/>
-      <mass value="0.2889"/>
-      <inertia ixx="0.00025411726" ixy="0" ixz="0" iyy="0.00029543601" iyz="0" izz="0.0004436638" />
+      <origin xyz="0.02067  -0.00198  -0.00964" rpy="0 0 0"/>
+      <mass value="0.24032"/>
+      <inertia ixx="0.000232177" ixy="0.000026659" ixz="-0.000059566" iyy="0.000296598" iyz="-0.000002851" izz="0.000427637" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -555,11 +555,11 @@
     <origin xyz="0 0 0" rpy="0 0 0"/>
   </joint>
   <joint name="TrunkYaw" type="revolute">
-    <origin xyz="-0 -0 0.2" rpy="0 0 0"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
     <parent link="body"/>
     <child link="torso"/>
-    <limit effort="0" lower="-0.78539815" upper="0.78539815" velocity="0" />
+    <limit effort="80.902" lower="-0.785398" upper="0.785398" velocity="1.5"/>
   </joint>
 
   <joint name="NeckYaw" type="revolute">
@@ -567,7 +567,7 @@
     <axis xyz="0 0 1"/>
     <parent link="torso"/>
     <child link="NeckYawLink"/>
-    <limit effort="24.2532552" lower="-1.5707963" upper="1.5707963" velocity="5.8886917" />
+    <limit effort="3.662" lower="-1.5708" upper="1.5708" velocity="4"/>
   </joint>
 
   <joint name="NeckPitch" type="revolute">
@@ -575,7 +575,7 @@
     <axis xyz="0 1 0"/>
     <parent link="NeckYawLink"/>
     <child link="NeckPitchLink"/>
-    <limit effort="23.115708" lower="-0.698131688888889" upper="0.698131688888889" velocity="6.17848" />
+    <limit effort="2.978" lower="-0.349066" upper="0.698132" velocity="2.2"/>
   </joint>
 
   <joint name="HeadPitch" type="revolute">
@@ -583,7 +583,7 @@
     <axis xyz="0 1 0"/>
     <parent link="NeckPitchLink"/>
     <child link="HeadPitchLink"/>
-    <limit effort="14.6811456" lower="-0.289724650888889" upper="0.349065844444444" velocity="7.2988824" />
+    <limit effort="2.57" lower="-0.349066" upper="0.279253" velocity="1.9"/>
   </joint>
 
   <joint name="HeadRoll" type="revolute">
@@ -591,31 +591,31 @@
     <axis xyz="1 0 0"/>
     <parent link="HeadPitchLink"/>
     <child link="HeadRollLink"/>
-    <limit effort="22.586421" lower="-0.523598766666667" upper="0.523598766666667" velocity="4.7442645" />
+    <limit effort="0.9" lower="-0.349066" upper="0.349066" velocity="1.5"/>
   </joint>
 
   <joint name="LShoulderPitch" type="revolute">
-    <origin xyz="0.005 0.19 0" rpy="0 0 0"/>
+    <origin xyz="0.005 0.19 0" rpy="-0.158879 -0.0725189 -0.424682"/>
     <axis xyz="0 1 0"/>
     <parent link="torso"/>
     <child link="LShoulderPitchLink"/>
-    <limit effort="21.882612" lower="-1.51843642333333" upper="2.09439506666667" velocity="6.52664058" />
+    <limit effort="19.095" lower="-1.44478" upper="2.22041" velocity="2.2"/>
   </joint>
 
   <joint name="LShoulderYaw" type="revolute">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="0 0 0.430457"/>
     <axis xyz="0 0 1"/>
     <parent link="LShoulderPitchLink"/>
     <child link="LShoulderYawLink"/>
-    <limit effort="13.820682" lower="-0.200712860555556" upper="1.43989660833333" velocity="10.333784" />
+    <limit effort="9.031" lower="-0.430472" upper="1.14032" velocity="4"/>
   </joint>
 
   <joint name="LElbowRoll" type="revolute">
-    <origin xyz="0.205 0 0" rpy="0 0 0"/>
+    <origin xyz="0.205 0 0" rpy="0.17452 -0 0"/>
     <axis xyz="1 0 0"/>
     <parent link="LShoulderYawLink"/>
     <child link="LElbowRollLink"/>
-    <limit effort="13.820682" lower="-2.60054054111111" upper="1.39626337777778" velocity="10.333784" />
+    <limit effort="7.404" lower="-2.0944" upper="2.0944" velocity="3.7"/>
   </joint>
 
   <joint name="LElbowYaw" type="revolute">
@@ -623,55 +623,55 @@
     <axis xyz="0 0 1"/>
     <parent link="LElbowRollLink"/>
     <child link="LElbowYawLink"/>
-    <limit effort="13.757736" lower="-1.5707963" upper="0.401425721111111" velocity="10.3810644" />
+    <limit effort="6.02" lower="-1.5708" upper="0" velocity="4"/>
   </joint>
 
   <joint name="LWristRoll" type="revolute">
-    <origin xyz="0.182 0 0" rpy="0 0 0"/>
+    <origin xyz="0.1823 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
     <parent link="LElbowYawLink"/>
     <child link="LWristRollLink"/>
-    <limit effort="0" lower="-3.66519136666667" upper="0.523598766666667" velocity="0" />
+    <limit effort="2.177" lower="-3.66519" upper="0.523599" velocity="1.1"/>
   </joint>
 
   <joint name="LWristYaw" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
+    <axis xyz="0 0 1"/>
     <parent link="LWristRollLink"/>
     <child link="LWristYawLink"/>
-    <limit effort="0" lower="-0.488692182222222" upper="0.488692182222222" velocity="0" />
+    <limit effort="0.862" lower="-0.436332" upper="0.436332" velocity="2.26"/>
   </joint>
 
   <joint name="LWristPitch" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
-    <axis xyz="0 0 1"/>
+    <axis xyz="0 1 0"/>
     <parent link="LWristYawLink"/>
     <child link="l_wrist"/>
-    <limit effort="0" lower="-0.977384364444444" upper="0.977384364444444" velocity="0" />
+    <limit effort="0.6" lower="-0.977384" upper="0.977384" velocity="3.75"/>
   </joint>
 
   <joint name="RShoulderPitch" type="revolute">
-    <origin xyz="0.005 -0.19 0" rpy="0 0 0"/>
+    <origin xyz="0.005 -0.19 0" rpy="0.158879 -0.0725189 0.424682"/>
     <axis xyz="0 1 0"/>
     <parent link="torso"/>
     <child link="RShoulderPitchLink"/>
-    <limit effort="21.882612" lower="-1.51843642333333" upper="2.09439506666667" velocity="6.52664058" />
+    <limit effort="19.095" lower="-1.44478" upper="2.22041" velocity="2.2"/>
   </joint>
 
   <joint name="RShoulderYaw" type="revolute">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="-0 -0 -0.430457"/>
     <axis xyz="0 0 1"/>
     <parent link="RShoulderPitchLink"/>
     <child link="RShoulderYawLink"/>
-    <limit effort="13.820682" lower="-1.43989660833333" upper="0.200712860555556" velocity="10.333784" />
+    <limit effort="9.031" lower="-1.14032" upper="0.430472" velocity="4"/>
   </joint>
 
   <joint name="RElbowRoll" type="revolute">
-    <origin xyz="0.205 0 0" rpy="0 0 0"/>
+    <origin xyz="0.205 0 0" rpy="-0.17452 -0 0"/>
     <axis xyz="1 0 0"/>
     <parent link="RShoulderYawLink"/>
     <child link="RElbowRollLink"/>
-    <limit effort="13.820682" lower="-1.39626337777778" upper="2.60054054111111" velocity="10.333784" />
+    <limit effort="7.404" lower="-2.0944" upper="2.0944" velocity="3.7"/>
   </joint>
 
   <joint name="RElbowYaw" type="revolute">
@@ -679,31 +679,31 @@
     <axis xyz="0 0 1"/>
     <parent link="RElbowRollLink"/>
     <child link="RElbowYawLink"/>
-    <limit effort="13.757736" lower="-0.401425721111111" upper="1.5707963" velocity="10.3810644" />
+    <limit effort="6.02" lower="0" upper="1.5708" velocity="4"/>
   </joint>
 
   <joint name="RWristRoll" type="revolute">
-    <origin xyz="0.182 0 0" rpy="0 0 0"/>
+    <origin xyz="0.1823 0 0" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
     <parent link="RElbowYawLink"/>
     <child link="RWristRollLink"/>
-    <limit effort="0" lower="-0.523598766666667" upper="3.66519136666667" velocity="0" />
+    <limit effort="2.177" lower="-0.523599" upper="3.66519" velocity="1.1"/>
   </joint>
 
   <joint name="RWristYaw" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
+    <axis xyz="0 0 1"/>
     <parent link="RWristRollLink"/>
     <child link="RWristYawLink"/>
-    <limit effort="0" lower="-0.488692182222222" upper="0.488692182222222" velocity="0" />
+    <limit effort="0.862" lower="-0.436332" upper="0.436332" velocity="2.26"/>
   </joint>
 
   <joint name="RWristPitch" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
-    <axis xyz="0 0 1"/>
+    <axis xyz="0 1 0"/>
     <parent link="RWristYawLink"/>
     <child link="r_wrist"/>
-    <limit effort="0" lower="-0.977384364444444" upper="0.977384364444444" velocity="0" />
+    <limit effort="0.6" lower="-0.977384" upper="0.977384" velocity="3.75"/>
   </joint>
 
   <joint name="LHipYaw" type="revolute">
@@ -711,7 +711,7 @@
     <axis xyz="0 0 1"/>
     <parent link="body"/>
     <child link="LHipYawLink"/>
-    <limit effort="17.754" lower="-0.261799383333333" upper="0.261799383333333" velocity="8.082461" />
+    <limit effort="9.2" lower="-0.261799" upper="0.261799" velocity="0.32"/>
   </joint>
 
   <joint name="LHipRoll" type="revolute">
@@ -719,7 +719,7 @@
     <axis xyz="1 0 0"/>
     <parent link="LHipYawLink"/>
     <child link="LHipRollLink"/>
-    <limit effort="27.911346822" lower="-0.261799383333333" upper="0.523598766666667" velocity="10.289294" />
+    <limit effort="46.6" lower="-0.261799" upper="0.523599" velocity="2.09"/>
   </joint>
 
   <joint name="LHipPitch" type="revolute">
@@ -727,7 +727,7 @@
     <axis xyz="0 1 0"/>
     <parent link="LHipRollLink"/>
     <child link="LHipPitchLink"/>
-    <limit effort="42.35835006" lower="-1.71042263777778" upper="0.523598766666667" velocity="6.7799634" />
+    <limit effort="46.6" lower="-1.71042" upper="0.401426" velocity="2.09"/>
   </joint>
 
   <joint name="LKneePitch" type="revolute">
@@ -735,7 +735,7 @@
     <axis xyz="0 1 0"/>
     <parent link="LHipPitchLink"/>
     <child link="LKneePitchLink"/>
-    <limit effort="17.350636374" lower="-0.0523598766666667" upper="2.25147469666667" velocity="8.27600953" />
+    <limit effort="38.17" lower="0" upper="2.00713" velocity="6"/>
   </joint>
 
   <joint name="LAnklePitch" type="revolute">
@@ -743,7 +743,7 @@
     <axis xyz="0 1 0"/>
     <parent link="LKneePitchLink"/>
     <child link="LAnklePitchLink"/>
-    <limit effort="42.35835006" lower="-0.78539815" upper="0.523598766666667" velocity="6.7799634" />
+    <limit effort="25.76" lower="-0.523599" upper="0.785398" velocity="2.1"/>
   </joint>
 
   <joint name="LAnkleRoll" type="revolute">
@@ -751,7 +751,7 @@
     <axis xyz="1 0 0"/>
     <parent link="LAnklePitchLink"/>
     <child link="l_ankle"/>
-    <limit effort="27.911346822" lower="-0.349065844444444" upper="0.349065844444444" velocity="10.28929" />
+    <limit effort="25.76" lower="-0.349066" upper="0.349066" velocity="2.1"/>
   </joint>
 
   <joint name="LToePitch" type="revolute">
@@ -767,7 +767,7 @@
     <axis xyz="0 0 1"/>
     <parent link="body"/>
     <child link="RHipYawLink"/>
-    <limit effort="17.754" lower="-0.261799383333333" upper="0.261799383333333" velocity="8.082461" />
+    <limit effort="9.2" lower="-0.261799" upper="0.261799" velocity="0.32"/>
   </joint>
 
   <joint name="RHipRoll" type="revolute">
@@ -775,7 +775,7 @@
     <axis xyz="1 0 0"/>
     <parent link="RHipYawLink"/>
     <child link="RHipRollLink"/>
-    <limit effort="27.911346822" lower="-0.523598766666667" upper="0.261799383333333" velocity="10.289294" />
+    <limit effort="46.6" lower="-0.523599" upper="0.261799" velocity="2.09"/>
   </joint>
 
   <joint name="RHipPitch" type="revolute">
@@ -783,7 +783,7 @@
     <axis xyz="0 1 0"/>
     <parent link="RHipRollLink"/>
     <child link="RHipPitchLink"/>
-    <limit effort="42.35835006" lower="-1.71042263777778" upper="0.523598766666667" velocity="6.7799634" />
+    <limit effort="46.6" lower="-1.71042" upper="0.401426" velocity="2.09"/>
   </joint>
 
   <joint name="RKneePitch" type="revolute">
@@ -791,7 +791,7 @@
     <axis xyz="0 1 0"/>
     <parent link="RHipPitchLink"/>
     <child link="RKneePitchLink"/>
-    <limit effort="17.350636374" lower="-0.0523598766666667" upper="2.25147469666667" velocity="8.27600953" />
+    <limit effort="38.17" lower="0" upper="2.00713" velocity="6"/>
   </joint>
 
   <joint name="RAnklePitch" type="revolute">
@@ -799,7 +799,7 @@
     <axis xyz="0 1 0"/>
     <parent link="RKneePitchLink"/>
     <child link="RAnklePitchLink"/>
-    <limit effort="42.35835006" lower="-0.78539815" upper="0.523598766666667" velocity="6.7799634" />
+    <limit effort="25.76" lower="-0.523599" upper="0.785398" velocity="2.1"/>
   </joint>
 
   <joint name="RAnkleRoll" type="revolute">
@@ -807,7 +807,7 @@
     <axis xyz="1 0 0"/>
     <parent link="RAnklePitchLink"/>
     <child link="r_ankle"/>
-    <limit effort="27.911346822" lower="-0.349065844444444" upper="0.349065844444444" velocity="10.28929" />
+    <limit effort="25.76" lower="-0.349066" upper="0.349066" velocity="2.1"/>
   </joint>
 
   <joint name="RToePitch" type="revolute">
@@ -833,44 +833,44 @@
   <joint name="gaze_joint" type="fixed">
     <parent link="HeadRollLink"/>
     <child link="gaze"/>
-    <origin xyz="0.1111 0 0.0515" rpy="0 0 0" />
+    <origin xyz="0.09178 0 0.05425" rpy="0 0 0" />
   </joint>
   <link name="gaze"/>
 
   <!-- Sensors: cameras -->
   <joint name="LEyeYaw" type="revolute">
-    <origin xyz="0 0.0325 0" rpy="0 0 0"/>
+    <origin xyz="0 0.03192 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
     <parent link="gaze"/>
-    <child link="LEyePitch_link"/>
-    <limit effort="0" lower="-0.523598766666667" upper="0.523598766666667" velocity="0" />
+    <child link="LEyeYawLink"/>
+    <limit effort="0.01752" lower="-0.523599" upper="0.523599" velocity="293.215"/>
   </joint>
-  <link name="LEyePitch_link"/>
+  <link name="LEyeYawLink"/>
 
   <joint name="LEyePitch" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="LEyePitch_link"/>
+    <parent link="LEyeYawLink"/>
     <child link="CameraLeftEye"/>
-    <limit effort="0" lower="-0.349065844444444" upper="0.349065844444444" velocity="0" />
+    <limit effort="0.01752" lower="-0.349066" upper="0.349066" velocity="293.215"/>
   </joint>
   <link name="CameraLeftEye"/>
 
   <joint name="REyeYaw" type="revolute">
-    <origin xyz="0 -0.0325 0" rpy="0 0 0"/>
+    <origin xyz="0 -0.03192 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
     <parent link="gaze"/>
-    <child link="REyePitch_link"/>
-    <limit effort="0" lower="-0.523598766666667" upper="0.523598766666667" velocity="0" />
+    <child link="REyeYawLink"/>
+    <limit effort="0.01752" lower="-0.523599" upper="0.523599" velocity="293.215"/>
   </joint>
-  <link name="REyePitch_link"/>
+  <link name="REyeYawLink"/>
 
   <joint name="REyePitch" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
-    <parent link="REyePitch_link"/>
+    <parent link="REyeYawLink"/>
     <child link="CameraRightEye"/>
-    <limit effort="0" lower="-0.349065844444444" upper="0.349065844444444" velocity="0" />
+    <limit effort="0.01752" lower="-0.349066" upper="0.349066" velocity="293.215"/>
   </joint>
   <link name="CameraRightEye"/>
 
@@ -889,27 +889,26 @@
   <link name="CameraRight"/>
 
 
-	<!--
-		 Humanoid standard frames
+  <!--
+     Humanoid standard frames
 
-		 This section defines anchor joint renaming to respect the
-		 REP 120 (http://www.ros.org/reps/rep-0120.html):
-		 Coordinate Frames for Humanoids Robots
-		-->
+     This section defines anchor joint renaming to respect the
+     REP 120 (http://www.ros.org/reps/rep-0120.html):
+     Coordinate Frames for Humanoids Robots
+    -->
 
-	<!-- Humanoid standard frames: wrists and hands -->
-	<joint name="l_gripper_joint" type="fixed">
-		<parent link="l_wrist"/>
-		<child link="l_gripper"/>
-		<origin xyz="0.09 0 -0.02" rpy="-1.57079633 0 0"/>
-	</joint>
-	<link name="l_gripper"/>
+  <!-- Humanoid standard frames: wrists and hands -->
+  <joint name="l_gripper_joint" type="fixed">
+    <parent link="l_wrist"/>
+    <child link="l_gripper"/>
+    <origin xyz="0.09 0 -0.02" rpy="-1.57079633 0 0"/>
+  </joint>
+  <link name="l_gripper"/>
 
-	<joint name="r_gripper_joint" type="fixed">
-		<parent link="r_wrist"/>
-		<child link="r_gripper"/>
-		<origin xyz="0.09 0 -0.02" rpy="-1.57079633 0 0"/>
-	</joint>
-	<link name="r_gripper"/>
-
+  <joint name="r_gripper_joint" type="fixed">
+    <parent link="r_wrist"/>
+    <child link="r_gripper"/>
+    <origin xyz="0.09 0 -0.02" rpy="-1.57079633 0 0"/>
+  </joint>
+  <link name="r_gripper"/>
 </robot>
