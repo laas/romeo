@@ -12,7 +12,7 @@ include(cmake/base.cmake)
 setup_project()
 # Install launch file
 install(FILES ${CMAKE_SOURCE_DIR}/launch/display.launch
-  ${CMAKE_SOURCE_DIR}/launch/romeo.rviz
+  ${CMAKE_SOURCE_DIR}/launch/display.rviz
   ${CMAKE_SOURCE_DIR}/launch/sot_display.launch
   DESTINATION ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}/launch
 )
