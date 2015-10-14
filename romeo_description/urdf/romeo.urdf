@@ -5,7 +5,7 @@
 <!--             - inverse trunkYaw joint direction (now from body to torso)                 -->
 <!-- Aldebaran file comes from                                                               --> 
 <!-- https://github.com/ros-aldebaran/romeo_robot/blob/master/romeo_description/urdf/romeoV1_generated_urdf/romeo.urdf -->
-<robot name="romeoH37V1" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="romeo" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <joint name="NeckYaw" type="revolute">
     <parent link="torso"/>
     <child link="NeckYawLink"/>
@@ -1272,7 +1272,7 @@
     <axis xyz="-0.121869 -0.992546 -4.37114e-08"/>
     <parent link="r_wrist"/>
     <child link="RFinger11Link"/>
-    <limit effort="0" lower="-4.266806" upper="0.0" velocity="0"/>
+    <limit effort="0" lower="0.0" upper="1.0" velocity="0"/>
   </joint>
   <joint name="LFinger12" type="revolute">
     <origin rpy="4.64506e-08 1.06465 7.88574e-08" xyz="0.01818 0 0"/>

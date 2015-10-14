@@ -5,7 +5,7 @@
 <!--             - inverse trunkYaw joint direction (now from body to torso)                 -->
 <!-- Aldebaran file comes from                                                               --> 
 <!-- https://github.com/ros-aldebaran/romeo_robot/blob/master/romeo_description/urdf/romeoV1_generated_urdf/romeo.urdf -->
-<robot name="romeoH37V1" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="romeo" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <joint name="NeckYaw" type="revolute">
     <parent link="torso"/>
     <child link="NeckYawLink"/>
