@@ -14,6 +14,14 @@
 
   -->
 <robot name="romeo">
+  <gripper name="r_hand" clearance="0.025">
+    <position>0.01 0.01 0 0.923879532511 0.0 0.0 0.382683432365</position>
+    <link name="r_gripper"/>
+  </gripper>
+  <gripper name="l_hand" clearance="0.025">
+    <position>0.01 0.01 0 0.0 0.923879532511 0.382683432365 0.0</position>
+    <link name="l_gripper"/>
+  </gripper>
   <!-- Romeo groups -->
 
   <!-- To remove when the grippers will be added

@@ -28,6 +28,7 @@ install(FILES ${CMAKE_SOURCE_DIR}/urdf/romeo.urdf
 install(FILES
   ${CMAKE_SOURCE_DIR}/srdf/romeo.srdf
   ${CMAKE_SOURCE_DIR}/srdf/romeo_small.srdf
+  ${CMAKE_SOURCE_DIR}/srdf/romeo_moveit.srdf
   DESTINATION ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}/srdf
   )
 
