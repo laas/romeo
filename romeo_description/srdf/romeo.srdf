@@ -134,6 +134,25 @@
     <joint name="REyePitch"      value="0" />
   </group_state>
 
+  <!--
+   Romeo Specificities.
+     foot height = y axis
+     foot width  = x axis
+     foot depth  = z axis
+  -->
+  <specificities>
+    <feet>
+      <right>
+        <size height="0.1935" width="0.121" depth="0.0684" />
+        <anklePosition x="0.0" y="0.0" z="0.0684" />
+      </right>
+      <left>
+        <size height="0.1935" width="0.121" depth="0.0684" />
+        <anklePosition x="0.0" y="0.0" z="0.0684" />
+      </left>
+    </feet>
+  </specificities>
+
   <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
   <disable_collisions link1="HeadRollLink" link2="LHipPitchLink" reason="Never" />
   <disable_collisions link1="HeadRollLink" link2="LKneePitchLink" reason="Never" />

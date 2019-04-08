@@ -100,4 +100,19 @@
     <joint name="REyeYaw"        value="0" />
     <joint name="REyePitch"      value="0" />
   </group_state>
+
+  <specificities>
+    <feet>
+      <right>
+        <size height="0.1935" width="0.121" depth="0.0684" />
+        <anklePosition x="0.0" y="0.0" z="0.0684" />
+      </right>
+      <left>
+        <size height="0.1935" width="0.121" depth="0.0684" />
+        <anklePosition x="0.0" y="0.0" z="0.0684" />
+      </left>
+    </feet>
+  </specificities>
+
+
 </robot>
