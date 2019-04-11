@@ -1,6 +1,6 @@
 <package>
   <name>romeo_description</name>
-  <version>0.1.0</version>
+  <version>0.5.1</version>
   <description>
     This package provides URDF, SRDF and RCPDF models for Aldebaran
     Robotics Romeo robot.
